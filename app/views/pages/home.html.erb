@@ -1,11 +1,11 @@
-<div class="container">
 
   <style>
     .fullscreen {
       position: absolute;
+      align-items: right;
       top: 0;
-      left: 0;
       width: 100%;
+      max-width: 1100px;
       height: 70vh;
 
     }
@@ -13,92 +13,91 @@
     .header-overlay {
       height: 70vh;
       width: 100%;
+      max-width: 1100px;
       position: relative;
       top: -17px;
-      left: 0;
       background: #225470;
       z-index: 2;
       opacity: 0.7;
-
-          display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 1.5rem;
     }
 
     .header-content {
-
       z-index: 10;
       position: absolute;
       top: -50vh;
-
-
       margin: 0 !important;
-    text-align: center;
+      text-align: center;
+    }
 
+    .navbar-brand {
+      width: 35px;
     }
   </style>
 
 
+<center>
+  <div style="z-index: -10; position: relative; align-items: left">
 
-  <div style="z-index: -190; position: relative;">
-    <iframe style="z-index: -190; top: -17px;" class="fullscreen" width="560" height="315" src="https://www.youtube.com/embed/jEWbmoWNhSw?controls=0" frameborder="0" allow="autoplay;" allowfullscreen></iframe>
+      <iframe style="z-index: -10; top: -17px; position: absolute; width: 100%; height: 70vh; max-width: 1100px;"  width="560" height="315" src="https://www.youtube.com/embed/jEWbmoWNhSw?controls=0" align="right" frameborder="0" allow="autoplay;" allowfullscreen></iframe>
+
   </div>
 
   <div class="header-overlay"></div>
+</center>
+
+
+<div class="hearder-content" style="z-index: 10; position: relative; top: -55vh;">
+  <center>
+    <h1 style="color: white; z-index: 10;">ENTREVISTA DESCOMPLICADA</h1>
+    <p style="color: white; z-index: 10; font-size: 2.5vh;">Aprenda os segredos dos processos seletivos e conquiste a vaga dos seus sonhos</p>
+    <div style="display: flex; align-items: center; justify-content: center;">
+      <a href="" class="btn" style="color: white; z-index: 2; opacity: 100%; background-color: blue; margin: 20px">Inscreva-se</a>
+      <a href="" class="btn" style="color: white; z-index: 2; opacity: 100%; background-color: blue; margin: 20px">Saiba mais</a>
+    </div>
+    <a href="" class="btn" style="color: white; z-index: 2; opacity: 100%; background-color: blue; margin: 20px">PLAY</a>
+  </center>
+</div>
 
 
 
-    <div class="hearder-content" style="z-index: 10; position: relative; top: -50vh;">
+<div class="container" style="position: relative; top: -35vh;">
+  <div class="row">
+
+    <div class="col-xs-12 col-sm-6 col-md-3">
       <center>
-      <h1 style="color: white; z-index: 10;">Hello</h1>
-      <p style="color: white; z-index: 10;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio corporis quidem, veniam tenetur molestiae.</p>
-      <a href="" class="btn" style="color: white; z-index: 2; opacity: 100%; background-color: red;">read more</a> <br> <br>
-      <a href="" class="btn" style="color: white; z-index: 2; opacity: 100%; background-color: red;">PLAY</a>
+        <div style="top: -200vh;">
+          <h2>Fast</h2>
+          <p>A fast app, <strong>very fast</strong> app Lorem ipsum dolor sit amet, consectetur adipisicing elit.  laborum, est.</p>
+        </div>
       </center>
     </div>
 
-<div style="position: relative; top: -20vh;">
-
-  <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-3">
-      <div style="top: -100vh;">
-        <img src="images/briefcase.png" alt="picture description" width="100">
-        <h2>Fast</h2>
-        <p>A fast app, <strong>very fast</strong> app</p>
-      </div>
+      <center>
+        <div>
+          <h2>Simple</h2>
+          <p>A simple app, <strong>very simple</strong> app Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos illo unde tempore nemo at e culpa, necessitatibus.</p>
+        </div>
+      </center>
     </div>
 
     <div class="col-xs-12 col-sm-6 col-md-3">
-      <div>
-        <img src="images/diamond.png" alt="picture description" width="100">
-        <h2>Simple</h2>
-        <p>A simple app, <strong>very simple</strong> app</p>
-      </div>
+      <center>
+        <div>
+          <h2>Awesome</h2>
+          <p>An awesome app, <strong>very awesome</strong> app Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum voluptate, autem iste dolorem! .</p>
+        </div>
+      </center>
     </div>
 
     <div class="col-xs-12 col-sm-6 col-md-3">
-      <div>
-        <img src="images/heart.png" alt="picture description" width="100">
-        <h2>Awesome</h2>
-        <p>An awesome app, <strong>very awesome</strong> app</p>
-      </div>
+      <center>
+        <div>
+          <h2>Beautiful</h2>
+          <p>A beautiful app, <strong>very beautiful</strong> app Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur placeat, ad mole!</p>
+        </div>
+      </center>
     </div>
-
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      <div>
-        <img src="images/laptop.png" alt="picture description" width="100">
-        <h2>Beautiful</h2>
-        <p>A beautiful app, <strong>very beautiful</strong> app</p>
-      </div>
-    </div>
-
-      <div>
-        <p>This is a playground landing ©Le Wagon</p>
-      </div>
-
 
   </div>
-
-</div>
 </div>
