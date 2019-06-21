@@ -1,66 +1,56 @@
 
-  <style>
-    .fullscreen {
-      position: absolute;
-      align-items: right;
-      top: 0;
-      width: 100%;
-      max-width: 1100px;
-      height: 70vh;
-
-    }
-
-    .header-overlay {
-      height: 70vh;
-      width: 100%;
-      max-width: 1100px;
-      position: relative;
-      top: -17px;
-      background: #225470;
-      z-index: 2;
-      opacity: 0.7;
-    }
-
-    .header-content {
-      z-index: 10;
-      position: absolute;
-      top: -50vh;
-      margin: 0 !important;
-      text-align: center;
-    }
-
-    .navbar-brand {
-      width: 35px;
-    }
-  </style>
 
 
+
+<style>
+/* Play with this value */
+
+.videoContainer {
+  background: blue;
+  width: 100%;
+  height: 70vh;
+  text-align: center;
+  overflow: hidden;
+  margin-top: -20px;
+}
+
+#videoTrailer {
+  min-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+
+</style>
+
+
+
+
+<div class="videoContainer">
+
+  <video id="videoTrailer" style="object-fit: cover; opacity: 0.4;" autoplay muted loop>
+    <source src="/assets/footage1.mp4" type="video/mp4">
+  </video>
 <center>
-  <div style="z-index: -10; position: relative; align-items: left">
+  <div style="position: relative; margin-top: -50vh;">
 
-      <iframe style="z-index: -10; top: -17px; position: absolute; width: 100%; height: 70vh; max-width: 1100px;"  width="560" height="315" src="https://www.youtube.com/embed/jEWbmoWNhSw?controls=0" align="right" frameborder="0" allow="autoplay;" allowfullscreen></iframe>
+      <h1 style="color: white;">ENTREVISTA DESCOMPLICADA</h1>
+      <p style="color: white; font-size: 2.5vh;">Aprenda os segredos dos processos seletivos e conquiste a vaga dos seus sonhos</p>
+      <div style="display: flex; align-items: center; justify-content: center;">
+        <a href="" class="btn" style="color: white; z-index: 2; opacity: 100%; background-color: blue; margin: 20px">Inscreva-se</a>
+        <a href="" class="btn" style="color: white; z-index: 2; opacity: 100%; background-color: blue; margin: 20px">Saiba mais</a>
+      </div>
+      <a href="" class="btn" style="color: white; z-index: 2; opacity: 100%; background-color: blue; margin: 20px">PLAY</a>
 
   </div>
-
-  <div class="header-overlay"></div>
 </center>
-
-
-<div class="hearder-content" style="z-index: 10; position: relative; top: -55vh;">
-  <center>
-    <h1 style="color: white; z-index: 10;">ENTREVISTA DESCOMPLICADA</h1>
-    <p style="color: white; z-index: 10; font-size: 2.5vh;">Aprenda os segredos dos processos seletivos e conquiste a vaga dos seus sonhos</p>
-    <div style="display: flex; align-items: center; justify-content: center;">
-      <a href="" class="btn" style="color: white; z-index: 2; opacity: 100%; background-color: blue; margin: 20px">Inscreva-se</a>
-      <a href="" class="btn" style="color: white; z-index: 2; opacity: 100%; background-color: blue; margin: 20px">Saiba mais</a>
-    </div>
-    <a href="" class="btn" style="color: white; z-index: 2; opacity: 100%; background-color: blue; margin: 20px">PLAY</a>
-  </center>
 </div>
 
 
 
-<div class="container" style="position: relative; top: -35vh;">
+
+
+
+<div class="container">
   <div class="row">
 
     <div class="col-xs-12 col-sm-6 col-md-3">
@@ -101,3 +91,4 @@
 
   </div>
 </div>
+

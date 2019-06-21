@@ -1,0 +1,279 @@
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src="rain.mp4" type="/assets/footage1.mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="content">
+  <h1>Heading</h1>
+  <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore latine molestiae, ad mutat oblique delicatissimi pro.</p>
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+</div>
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<style>
+
+
+
+.teste {
+    width:100vw;
+    height: 70vh;
+    margin: 0;
+    margin-top: -30px;
+}
+#videoBG {
+    position:absolute;
+    z-index: -1;
+}
+
+#videoBG2 {
+    position:absolute;
+    z-index: 1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width:auto;
+        height: 70vh;
+        overflow:hidden;
+        display:block;
+    };
+
+    #videoBG2 {
+        width:auto;
+        height: 70vh;
+        overflow:hidden;
+        display:block;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #videoBG {
+        width:auto;
+        height: 100%;
+    };
+
+    #videoBG2 {
+        width:100%;
+        height: auto;
+    }
+}
+@media (max-width: 767px) {
+    #videoBG {
+        display: none;
+    }
+    body {
+        background: url('poster.jpg');
+        background-size: cover;
+    }
+}
+
+</style>
+
+<div class="teste">
+        <video id="videoBG" poster="" autoplay muted loop>
+            <source src="/assets/footage1.mp4" type="video/mp4">
+        </video>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <style>
+    .fullscreen {
+      position: relative;
+      align-items: right;
+      top: 0;
+      width: 100%;
+      max-width: 1100px;
+      height: 70vh;
+
+    }
+
+    .header-overlay {
+      height: 70vh;
+      width: 100%;
+      max-width: 1100px;
+      position: absolute;
+      top: -17px;
+      background: #225470;
+      z-index: 2;
+      opacity: 0.7;
+    }
+
+    .header-content {
+      z-index: 10;
+      position: absolute;
+      top: -50vh;
+      margin: 0 !important;
+      text-align: center;
+    }
+
+    .navbar-brand {
+      width: 35px;
+    }
+  </style>
+
+
+<center>
+  <div style="z-index: -10; position: relative; align-items: left">
+
+<center>
+
+      <iframe style="z-index: -10; top: -17px; margin: auto; float:left; position: absolute; width: 100%; height: 70vh; max-width: 1100px; object-fit: cover;
+    object-position: center;"  src="https://player.vimeo.com/video/76979871" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+   </center>
+
+   </div>
+
+
+
+  <div style="z-index: 10" id="videoBG" class="header-overlay" style="z-index: 10"></div>
+</center>
+
+
+<div class="hearder-content" style="z-index: 10; position: relative; top: -55vh;">
+  <center>
+    <h1 style="color: white; z-index: 10;">ENTREVISTA DESCOMPLICADA</h1>
+    <p style="color: white; z-index: 10; font-size: 2.5vh;">Aprenda os segredos dos processos seletivos e conquiste a vaga dos seus sonhos</p>
+    <div style="display: flex; align-items: center; justify-content: center;">
+      <a href="" class="btn" style="color: white; z-index: 2; opacity: 100%; background-color: blue; margin: 20px">Inscreva-se</a>
+      <a href="" class="btn" style="color: white; z-index: 2; opacity: 100%; background-color: blue; margin: 20px">Saiba mais</a>
+    </div>
+    <a href="" class="btn" style="color: white; z-index: 2; opacity: 100%; background-color: blue; margin: 20px">PLAY</a>
+  </center>
+</div>
+
+
+
+<div class="container" style="position: relative; top: -35vh;">
+  <div class="row">
+
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <center>
+        <div style="top: -200vh;">
+          <h2>Fast</h2>
+          <p>A fast app, <strong>very fast</strong> app Lorem ipsum dolor sit amet, consectetur adipisicing elit.  laborum, est.</p>
+        </div>
+      </center>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <center>
+        <div>
+          <h2>Simple</h2>
+          <p>A simple app, <strong>very simple</strong> app Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos illo unde tempore nemo at e culpa, necessitatibus.</p>
+        </div>
+      </center>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <center>
+        <div>
+          <h2>Awesome</h2>
+          <p>An awesome app, <strong>very awesome</strong> app Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum voluptate, autem iste dolorem! .</p>
+        </div>
+      </center>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <center>
+        <div>
+          <h2>Beautiful</h2>
+          <p>A beautiful app, <strong>very beautiful</strong> app Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur placeat, ad mole!</p>
+        </div>
+      </center>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
