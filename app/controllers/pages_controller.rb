@@ -5,4 +5,13 @@ class PagesController < ApplicationController
     @post = params[:postID]
 
   end
+
+
+  private
+
+    def posts_all
+      postsYAML = YAML.load(ERB.new(File.read("config/post.yml")).result(binding))
+      posts_all = postsYAML.collect { |k, v| v }
+    end
+
 end

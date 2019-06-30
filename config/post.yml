@@ -14,7 +14,7 @@
 post4:
  date: "<div>Quatro</div>"
  title: "blah blah"
- link: "bla-bla"
+ link: "/bla-bla.html"
  category: "blah blah"
  photo: "https://www.novomomento.com.br/images/noticias/candidata-a-miss-bumbum-mostra-bastante.jpg"
  video: "https://www.youtube.com/embed/cahHk3ockf0"
@@ -30,6 +30,7 @@ post4:
 post3:
  date: "tres"
  title: "blah blah"
+ link: "/bla-bla.html"
  category: "blah blah"
  photo: "https://www.novomomento.com.br/images/noticias/candidata-a-miss-bumbum-mostra-bastante.jpg"
  video: "https://www.youtube.com/embed/cahHk3ockf0"
@@ -45,6 +46,7 @@ post3:
 post2:
  date: "Dois"
  title: "blah blah"
+ link: "/bla-bla2.html"
  category: "blah blah"
  photo: "https://www.novomomento.com.br/images/noticias/candidata-a-miss-bumbum-mostra-bastante.jpg"
  video: "https://www.youtube.com/embed/cahHk3ockf0"
@@ -60,6 +62,7 @@ post2:
 post1:
  date: "Um"
  title: "blah blah"
+ link: "/bla-bla.html"
  category: "blah blah"
  photo: "https://www.novomomento.com.br/images/noticias/candidata-a-miss-bumbum-mostra-bastante.jpg"
  video: "https://www.youtube.com/embed/cahHk3ockf0"
