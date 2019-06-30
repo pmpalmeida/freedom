@@ -40,7 +40,7 @@
       <a href="" class="btn" style="color: white; background-color: #DB7C26; margin: 20px; font-size: 2.5vh;">Inscreva-se</a>
       <a href="" class="btn" style="color: white; background-color: #DB7C26; margin: 20px; font-size: 2.5vh;">Saiba mais</a>
     </div>
-      <a href="" style="color: white; margin: 20px"><i class="far fa-play-circle" style="font-size: 6vh;"></i></a>
+      <a href="" style="color: #DB7C26; margin: 20px"><i class="far fa-play-circle" style="font-size: 6vh;"></i></a>
   </div>
 </div>
 
@@ -94,6 +94,45 @@
   </div>
 </div>
 </div>
+
+<% replies = YAML.load(ERB.new(File.read("config/post.yml")).result(binding)) %>
+<h1 style="margin: 10vh;"><%= replies["post1"]["text"] %></h1>
+
+
+<% test = replies.collect { |k, v| v } %>
+<br>
+<br>
+<%= "<center style=\"color: green; font-size: 1.1em\" > Administrators only </center>".html_safe %>
+<%= test[0]["category"].html_safe %>
+
+<h1><%= raw(test[0]["text"]).html_safe %></h1>
+
+<p>--------------</p>
+
+<% test.each do |post| %>
+  <%= post["date"].html_safe %> <br>
+
+  <iframe width="560" height="315" src=<%= post["video"] %>
+ frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <img src=<%= post["photo"] %> alt="">
+
+<% end %>
+
+
+
+<p>--------------</p>
+<p>--------------</p>
+
+<% replies.each do |key, value| %>
+  <%= "#{key} is #{value}" %>
+  <br>
+  <br>
+  <br>
+  <br>
+  <p><%= "#{value}" %></p>
+<% end %>
+
+
 
 
 
