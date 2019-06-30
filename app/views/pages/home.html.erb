@@ -111,13 +111,15 @@
 
   <iframe width="560" height="315" src=<%= post["video"] %>
  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
  <img src=<%= post["photo"] %> alt="">
  <%= post["text"].html_safe %> <br>
 
- <%= link_to "Add to cart",
-            :controller => "pages",
-            :action => "home",
-            :postID => post %>
+  <%= link_to "Add to cart",
+    :controller => "pages",
+    :action => "home",
+    :postID => post
+  %>
 <% end %>
 
 
