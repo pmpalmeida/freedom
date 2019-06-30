@@ -95,42 +95,36 @@
 </div>
 </div>
 
-<% replies = YAML.load(ERB.new(File.read("config/post.yml")).result(binding)) %>
-<h1 style="margin: 10vh;"><%= replies["post1"]["text"] %></h1>
 
 
-<% test = replies.collect { |k, v| v } %>
+<% postsYAML = YAML.load(ERB.new(File.read("config/post.yml")).result(binding)) %>
+<% posts = postsYAML.collect { |k, v| v } %>
 <br>
 <br>
-<%= "<center style=\"color: green; font-size: 1.1em\" > Administrators only </center>".html_safe %>
-<%= test[0]["category"].html_safe %>
 
-<h1><%= raw(test[0]["text"]).html_safe %></h1>
+<%= @post %>
 
 <p>--------------</p>
 
-<% test.each do |post| %>
+<% posts.each do |post| %>
   <%= post["date"].html_safe %> <br>
 
   <iframe width="560" height="315" src=<%= post["video"] %>
  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  <img src=<%= post["photo"] %> alt="">
+ <%= post["text"].html_safe %> <br>
 
+ <%= link_to "Add to cart",
+            :controller => "pages",
+            :action => "home",
+            :postID => post %>
 <% end %>
 
 
 
-<p>--------------</p>
-<p>--------------</p>
 
-<% replies.each do |key, value| %>
-  <%= "#{key} is #{value}" %>
-  <br>
-  <br>
-  <br>
-  <br>
-  <p><%= "#{value}" %></p>
-<% end %>
+
+
 
 
 
