@@ -1,39 +1,58 @@
 
 
 <style>
-  .photoContainer {
+.photoContainer {
   width: 100%;
   height: 40vh;
   text-align: center;
   overflow: hidden;
   margin-top: 0px;
 }
+
+.postframe {
+  padding: 7vh;
+  margin-top: -10vh;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.containerposition {
+  position: relative;
+  margin-top: -2vh;
+}
+
+
 </style>
 
 
 <div style="background-color: #F8F8F8;">
 
 <div class="photoContainer">
-<img style="object-fit: fill;" src=<%= @post["photo"] %> alt="">
+<img style="object-fit: fill;" src=<%= @post["photo"] %> alt=<%= @post["title"] %>>
 </div>
 
 <div class="container" style="position: relative; margin-top: -2vh;" >
 
-<div style="padding: 7vh; margin-top: -10vh; background-color: white; border-radius: 3px;">
+<div class="postframe">
 
   <center>
     <h4><%= @post["date"].html_safe%></h4>
     <h1><%= @post["title"].html_safe%></h1>
     <br>
   </center>
-
   <%= @post["text"].html_safe%>
 
+
+
+  <% if !@post["video"].nil?  %>
+  <h2>Veja o vídeo completo:</h2>
+    <center>
+      <iframe width="100%" height="400px" src=<%= @post["video"].html_safe%> frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+  <% end %>
+
+
 </div>
-
-
-
-<%= link_to "Know more about us", @post["link"] %>
 
 
 </div>
