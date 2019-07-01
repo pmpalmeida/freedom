@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
 #POSTS---------------------------------------------------------------------------------------------
 
-  get "bla-bla", to: 'blog#post0', as: :"bla-bla"
+  get "myth-my-homebrewed-admin-panel-works-fine-thanks", to: 'blog#post0', as: :"myth-my-homebrewed-admin-panel-works-fine-thanks"
   get "bla-bla2", to: 'blog#post1', as: :"bla-bla2"
   get "bla-bla3", to: 'blog#post2', as: :"bla-bla3"
 
