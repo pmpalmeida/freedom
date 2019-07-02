@@ -7,9 +7,10 @@
 post0:
  date: "12 Jan 2019"
  title: "Myth #3 - My homebrewed admin panel works fine, thanks!"
+ description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate a officia natus quod, architecto, totam, cumque, ab"
  link: "/myth-my-homebrewed-admin-panel-works-fine-thanks.html"
  category: "Test"
- photo: "https://www.novomomento.com.br/images/noticias/candidata-a-miss-bumbum-mostra-bastante.jpg"
+ photo: "https://www.glenstone.org/wp-content/uploads/prod/2018/07/AV_Landscape-Hero-Contour-2993-1110x696.jpg"
  video: "https://www.youtube.com/embed/cahHk3ockf0"
  text:
   "
