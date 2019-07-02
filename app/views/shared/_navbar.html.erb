@@ -95,6 +95,18 @@
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
+
+.nav-logo {
+  font-size: 2.5vh;
+  background-color: red;
+  object-position: center;
+  padding: 5px;
+  color: white;
+  font-family: 'Barriecito', cursive;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
 </style>
 
 
@@ -103,11 +115,11 @@
 <div class="navbar-wagon">
   <!-- Logo -->
   <%= link_to root_path, class: "navbar-wagon-brand" do %>
-    <%= image_tag "logo3.png", height: 30 %>
+    <p class="nav-logo">Entrevista Descomplicada</p>
   <% end %>
   <!-- Right Navigation -->
 
-<div class="hide">  <!-- div para hide de menu bar -->
+<div class="">  <!-- div para hide de menu bar -->
 
   <div class="navbar-wagon-right hidden-xs hidden-sm">
     <%= link_to "Blog", root_path, class: "navbar-wagon-item-cidade navbar-wagon-link" %>
