@@ -20,6 +20,10 @@
   vertical-align: middle;
 }
 
+.fonttitle {
+  font-family: 'Barriecito', cursive;
+}
+
 </style>
 
 
@@ -33,7 +37,7 @@
 
   <div style="position: relative; margin-top: -50vh;">
     <div class="container" style="background-color: #DB7C26; padding: 0.6vh;">
-    <h1 style="color: white;">ENTREVISTA DESCOMPLICADA</h1>
+    <h1 class="fonttitle" style="color: white;">ENTREVISTA DESCOMPLICADA</h1>
     <p style="color: white; font-size: 2.5vh; margin-left: 4vh; margin-right: 4vh;">Aprenda os segredos dos processos seletivos e conquiste a vaga dos seus sonhos</p>
     </div>
     <div style="display: flex; align-items: center; justify-content: center;">
@@ -126,6 +130,34 @@
 
 
 
+
+
+<% postsYAML = YAML.load(ERB.new(File.read("config/post.yml")).result(binding)) %>
+<% posts = postsYAML.collect { |k, v| v } %>
+<br>
+<br>
+
+<%= @post %>
+
+<p>--------------</p>
+
+<% posts.each do |post| %>
+  <%= post["date"].html_safe %> <br>
+
+  <iframe width="560" height="315" src=<%= post["video"] %>
+ frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+ <img src=<%= post["photo"] %> alt="">
+ <%= post["text"].html_safe %> <br>
+
+  <%= link_to "Add to cart",
+    :controller => "pages",
+    :action => "home",
+    :postID => post
+  %>
+
+  <%= link_to "Know more about us", post["link"] %>
+<% end %>
 
 
 

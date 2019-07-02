@@ -2,7 +2,8 @@ class PagesController < ApplicationController
   skip_before_action :authenticate_user!, only: [:home]
 
   def home
-    @post = params[:postID]
+    @posts = posts_all
+    @firstpost = @posts[0]
 
   end
 
