@@ -4,7 +4,8 @@ class PagesController < ApplicationController
   def home
     @posts = posts_all
     @firstpost = @posts[0]
-    @secondpost = @posts.delete_at(1)
+    @secondposts = @posts
+
 
   end
 
@@ -14,6 +15,9 @@ class PagesController < ApplicationController
     def posts_all
       postsYAML = YAML.load(ERB.new(File.read("config/post.yml")).result(binding))
       posts_all = postsYAML.collect { |k, v| v }
+
+      file = "config/post.yml"
+      posts_all = YAML.load(open(file).read)
     end
 
 end

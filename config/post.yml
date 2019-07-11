@@ -38,8 +38,6 @@ post0:
 
 
 
-
-
 post1:
  date: "tres"
  title: "blah blah"
@@ -89,8 +87,22 @@ post3:
 
 #------------------------------------------------------- END POST -----------------------------------------------------------------------
 
+post4:
+ date: "Um"
+ title: "blah blah"
+ link: "/bla-bla.html"
+ category: "blah blah"
+ photo: "https://www.novomomento.com.br/images/noticias/candidata-a-miss-bumbum-mostra-bastante.jpg"
+ video: "https://www.youtube.com/embed/cahHk3ockf0"
+ text:
+  "
+  git init git add . git commit hub create    # To create a repo on GitHub <br /> <br />git remote -v # Check that the
+  `origin`<br> \n remote is set.git push origin master
+  <center style=\"color: green; font-size: 1.1em\" > Administrators only </center>
 
+  "
 
+#------------------------------------------------------- END POST -----------------------------------------------------------------------
 
 
 
