@@ -3,7 +3,7 @@ class PagesController < ApplicationController
 
   def home
     @posts = posts_all
-    @firstpost = @posts[0]
+    @firstpost = @posts["post0"]
     @secondposts = @posts
 
 
