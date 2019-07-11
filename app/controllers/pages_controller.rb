@@ -4,6 +4,7 @@ class PagesController < ApplicationController
   def home
     @posts = posts_all
     @firstpost = @posts[0]
+    @secondpost = @posts.delete_at(1)
 
   end
 
