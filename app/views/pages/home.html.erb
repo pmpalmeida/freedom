@@ -7,7 +7,11 @@
 @import url('https://fonts.googleapis.com/css?family=Barriecito&display=swap');
 
 .videoContainer {
-  background: #3443eb; /* #E8871E */
+
+  background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   width: 100%;
   height: 60vh;
   text-align: center;
@@ -25,53 +29,129 @@
   font-family: 'Barriecito', cursive;
   color: white;
   font-size: 6.5vh;
+  background: #F0386B;
+  padding: 0.5vh;
+  border-radius: 3px;
 
 }
 
 .btn-text {
   color: white;
-  background-color: red;
+  background-color: #F0386B;
   margin: 20px;
   font-size: 2.5vh;
   font-family: 'Barriecito', cursive;
 }
 
+.zoom:hover {
+  transform: scale(1.02);
+}
+
 </style>
-
-
 
 
 <div class="videoContainer">
 
-  <video id="videoTrailer" style="object-fit: cover; opacity: 0.4;" autoplay muted loop>
-    <source src="/assets/videotrailer.mp4" type="video/mp4">
+  <video id="videoTrailer" style="object-fit: cover; opacity: 0.2;" autoplay muted loop>
+    <source src="/assets/pexels.mp4" type="video/mp4">
   </video>
 
-  <div style="position: relative; margin-top: -50vh;">
+  <div style="position: relative; margin-top: -52vh;">
     <div class="container">
     <h1 class="title-text">ENTREVISTA DESCOMPLICADA</h1>
-    <p class="title-text" style="font-size: 2.5vh; margin-left: 1vh; margin-right: 1vh;">Aprenda os segredos dos processos seletivos e conquiste a vaga dos seus sonhos</p>
+    <p class="" style="font-size: 2.4vh; margin-left: 0.2vh; margin-right: 0.2vh; color: white;">Aprenda os segredos dos processos seletivos e conquiste a vaga dos seus sonhos</p>
     </div>
     <div style="display: flex; align-items: center; justify-content: center;">
-      <a href="" class="btn btn-text">Inscreva-se</a>
-      <a href="" class="btn btn-text">Saiba mais</a>
+      <a href="" class="btn btn-text hide">Inscreva-se</a>
+      <a href="" class="btn btn-text hide">Saiba mais</a>
     </div>
-      <a href="" style="color: white; margin: 20px"><i class="far fa-play-circle" style="font-size: 6vh;"></i></a>
+
+
+
+
+<!-- Begin Mailchimp Signup Form -->
+<center>
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+      #mc_embed_signup{font:14px Helvetica,Arial,sans-serif; width:90%; max-width:600px; opacity: 100%;}
+  /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+
+    <div id="mc_embed_signup" style="background-color: transparent;">
+
+      <form action="https://gmail.us3.list-manage.com/subscribe/post?u=a0af30e40c118dd4db6006b86&amp;id=8133a06308" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <center>
+        <div id="mc_embed_signup_scroll">
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email" required>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a0af30e40c118dd4db6006b86_8133a06308" tabindex="-1" value=""></div>
+          <div class="clear"><input type="submit" value="Inscreva-se" name="subscribe" id="mc-embedded-subscribe" class="button btn-danger" style="background-color: #F0386B;"></div>
+        </div>
+      </center>
+      </form>
+    </div>
+
+<p style="margin-top: -10px; color: white; font-size: 2vh;">Receba dicas de entrevista toda semana por email</p>
+</center>
+<!-- END Mailchimp Signup Form -->
+<!-- <a href="" style="color: white; margin: 20px"><i class="far fa-play-circle" style="font-size: 6vh;"></i></a> -->
   </div>
 </div>
 
-
-<br>
 <br>
 
+
+
+<div style="background-color: #F7F7F7; padding: 2vh; margin-top: -20px;">
+<div class="container" style="z-index: 1;">
+  <div class="row">
+
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <center>
+        <div style="margin-bottom: 3vh;">
+          <i class="fas fa-piggy-bank" style="font-size: 5vh;"></i>
+          <h2 style="margin-top: 1vh; font-size: 3vh;">Grátis</h2>
+          <p>Inteiramente <strong>grátis</strong>, você recebe tudo por email sem custo algum.</p>
+        </div>
+      </center>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <center>
+        <div style="margin-bottom: 3vh;">
+          <i class="fas fa-vial" style="font-size: 5vh;"></i>
+          <h2 style="margin-top: 1vh; font-size: 3vh;">Simples</h2>
+          <p><strong>Uma dica</strong> por semana no seu email.</p>
+        </div>
+      </center>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <center>
+        <div style="margin-bottom: 3vh;">
+          <i class="fas fa-tachometer-alt" style="font-size: 5vh;"></i>
+          <h2 style="margin-top: 1vh; font-size: 3vh;">Rápido</h2>
+          <p>Dicas<strong> rápidas</strong> pra você se dar bem na próxima entrevista.</p>
+        </div>
+      </center>
+    </div>
+
+  </div>
+</div>
+</div>
+<br>
 
 <div style="background-color: #F8F8F8; margin-top: -5.5vh;">
 
+
+
   <div class="container" style="padding-top: 2vh;">
+  <p style="font-style: italic;font-weight: bold;">Últimos posts</p>
+  <hr/ style="margin-top: 1vh; margin-bottom: 1vh;">
 
-
-
-    <div style="display: flex; align-items: flex-start; background-color: white; border-radius: 3px;">
+  <%= link_to @firstpost["link"], {:style => 'text-decoration: none!important; color:black;'} do %>
+    <div style="display: flex; align-items: flex-start; background-color: white; border-radius: 3px;" class="zoom">
       <div style="width: 60%;">
         <img style="width: 100%; min-height: 40vh;; object-fit: cover;" src=<%= @firstpost["photo"] %> alt=<%= @firstpost["title"] %>>
       </div>
@@ -81,82 +161,65 @@
         <h4 style="font-size: 1.5vh; color: grey;"><%= @firstpost["category"].upcase%></h4>
         <h2 style="font-size: 2.5vh; margin-top: 0vh;"><%= @firstpost["title"] %></h2>
         <h4 style="font-size: 1.5vh;"><%= @firstpost["description"] %></h4>
-
-
-
       </div>
     </div>
-
-
-
-
     <br>
-    <br>
-    <br>
-
-  </div>
-
-</div>
+  <% end %>
+  <!-- loop de blog posts ***************** -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-<div style="background-color: #F7F7F7; padding: 4vh; margin-top: -20px;">
-<div class="container" style="z-index: 1;">
   <div class="row">
 
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      <center>
-        <div style="margin-bottom: 4vh;">
-          <i class="fas fa-piggy-bank" style="font-size: 6vh;"></i>
-          <h2 style="margin-top: 1vh;">Grátis</h2>
-          <p>Inteiramente <strong>grátis</strong>, você recebe tudo por email sem custo algum.</p>
-        </div>
-      </center>
-    </div>
+    <% @secondposts.each_with_index do |secondpost, index|%>
 
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      <center>
-        <div style="margin-bottom: 4vh;">
-          <i class="fas fa-vial" style="font-size: 6vh;"></i>
-          <h2 style="margin-top: 1vh;">Simples</h2>
-          <p><strong>Uma dica</strong> por semana no seu email.</p>
-        </div>
-      </center>
-    </div>
+         <% link = secondpost[1]["link"]%>
+         <% photo = secondpost[1]["photo"]%>
+         <% title = secondpost[1]["title"]%>
+         <% category = secondpost[1]["category"]%>
+         <% description = secondpost[1]["description"]%>
+         <% date = secondpost[1]["date"]%>
+         <br>
 
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      <center>
-        <div style="margin-bottom: 4vh;">
-          <i class="fas fa-tachometer-alt" style="font-size: 6vh;"></i>
-          <h2 style="margin-top: 1vh;">Rápido</h2>
-          <p>Dicas<strong> rápidas</strong> pra você se dar bem na próxima entrevista.</p>
-        </div>
-      </center>
-    </div>
+        <%= link_to link, {:style => 'text-decoration: none!important; color:black;'} do %>
+          <div style="display: flex; align-items: flex-start; background-color: white; border-radius: 3px;" class="zoom">
+          <div style="width: 60%;">
+            <img style="width: 100%; min-height: 40vh;; object-fit: cover;" src=<%= photo %> alt=<%= title %>>
+          </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-3">
-      <center>
-        <div style="margin-bottom: 4vh;">
-          <i class="fas fa-folder-open" style="font-size: 6vh;"></i>
-          <h2 style="margin-top: 1vh;">Formato</h2>
-          <p>Formato em<strong> vídeo ou texto</strong> pra você entender tudo de forma clara!</p>
-        </div>
-      </center>
-    </div>
+          <div style="margin-left: 1vh; margin-right: 1vw;  padding: 1vh; width: 40%;">
+            <h3 style="font-size: 1.5vh;"><%= date%></h3>
+            <h4 style="font-size: 1.5vh; color: grey;"><%= category.upcase%></h4>
+            <h2 style="font-size: 2.5vh; margin-top: 0vh;"><%= title %></h2>
+            <h4 style="font-size: 1.5vh;"><%= description %></h4>
+          </div>
+          </div>
+          <br>
+        <% end %>
+
+    <% end %>
+
+
+  <!--  fim: loop de blog posts ********************* -->
 
   </div>
+
+<br>
+
 </div>
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
