@@ -2,8 +2,8 @@ class PagesController < ApplicationController
   skip_before_action :authenticate_user!, only: [:home]
 
   def home
-    @posts = posts_all.reverse_each.to_h
-    @firstpost = @posts["post0"]
+    @posts = posts_all.to_h
+    @firstpost = @posts["ultimo"]
     @secondposts = @posts
 
 

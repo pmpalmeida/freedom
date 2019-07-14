@@ -29,6 +29,9 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
   font-family: 'Barriecito', cursive;
   color: white;
   font-size: 6.5vh;
+  background: #F0386B;
+  padding: 0.5vh;
+  border-radius: 3px;
 
 }
 
@@ -89,7 +92,7 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
       </form>
     </div>
 
-<p style="margin-top: -10px; color: white;">e receba uma dica nova toda semana por email</p>
+<p style="margin-top: -10px; color: white; font-size: 2vh;">Receba dicas de entrevista toda semana por email</p>
 </center>
 <!-- END Mailchimp Signup Form -->
 <!-- <a href="" style="color: white; margin: 20px"><i class="far fa-play-circle" style="font-size: 6vh;"></i></a> -->
@@ -137,12 +140,15 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
   </div>
 </div>
 </div>
-
-
+<br>
 
 <div style="background-color: #F8F8F8; margin-top: -5.5vh;">
 
+
+
   <div class="container" style="padding-top: 2vh;">
+  <p style="font-style: italic;font-weight: bold;">Últimos posts</p>
+  <hr/ style="margin-top: 1vh; margin-bottom: 1vh;">
 
   <%= link_to @firstpost["link"], {:style => 'text-decoration: none!important; color:black;'} do %>
     <div style="display: flex; align-items: flex-start; background-color: white; border-radius: 3px;" class="zoom">

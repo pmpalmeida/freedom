@@ -4,9 +4,9 @@
 
 
 
-post0:
+ultimo:
  date: "12 Jan 2019"
- title: "Myth #3 - My homebrewed admin panel works fine, thanks!"
+ title: "POST 2: Myth #3 - My homebrewed admin panel works fine, thanks!"
  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate a officia natus quod, architecto, totam, cumque, ab"
  link: "/myth-my-homebrewed-admin-panel-works-fine-thanks.html"
  category: "Test"
@@ -40,7 +40,7 @@ post0:
 
 post1:
  date: "tres"
- title: "blah blah"
+ title: "post1"
  link: "/bla-bla.html"
  category: "blah blah"
  photo: "https://www.novomomento.com.br/images/noticias/candidata-a-miss-bumbum-mostra-bastante.jpg"
@@ -54,9 +54,9 @@ post1:
   "
 #------------------------------------------------------- END POST -----------------------------------------------------------------------
 
-post2:
+post0:
  date: "Dois"
- title: "blah blah"
+ title: "post0"
  link: "/bla-bla2.html"
  category: "blah blah"
  photo: "https://www.novomomento.com.br/images/noticias/candidata-a-miss-bumbum-mostra-bastante.jpg"
@@ -70,39 +70,6 @@ post2:
   "
 #------------------------------------------------------- END POST -----------------------------------------------------------------------
 
-post3:
- date: "Um"
- title: "blah blah"
- link: "/bla-bla.html"
- category: "blah blah"
- photo: "https://www.novomomento.com.br/images/noticias/candidata-a-miss-bumbum-mostra-bastante.jpg"
- video: "https://www.youtube.com/embed/cahHk3ockf0"
- text:
-  "
-  git init git add . git commit hub create    # To create a repo on GitHub <br /> <br />git remote -v # Check that the
-  `origin`<br> \n remote is set.git push origin master
-  <center style=\"color: green; font-size: 1.1em\" > Administrators only </center>
-
-  "
-
-#------------------------------------------------------- END POST -----------------------------------------------------------------------
-
-post4:
- date: "Um"
- title: "blah blah"
- link: "/bla-bla.html"
- category: "blah blah"
- photo: "https://www.novomomento.com.br/images/noticias/candidata-a-miss-bumbum-mostra-bastante.jpg"
- video: "https://www.youtube.com/embed/cahHk3ockf0"
- text:
-  "
-  git init git add . git commit hub create    # To create a repo on GitHub <br /> <br />git remote -v # Check that the
-  `origin`<br> \n remote is set.git push origin master
-  <center style=\"color: green; font-size: 1.1em\" > Administrators only </center>
-
-  "
-
-#------------------------------------------------------- END POST -----------------------------------------------------------------------
 
 
 
