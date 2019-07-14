@@ -1,0 +1,155 @@
+
+
+
+<style>
+
+.footer {
+  background: #2B3D41;
+
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  color: rgba(0,0,0,0.5);
+}
+
+.footer-text {
+  padding: 0px 0px;
+  color: white;
+  font-size: 1.6vh;
+  margin-top: 1vh;
+}
+
+.footer-copyright {
+  font-size: 2vh;
+}
+
+.footer-links {
+  display: flex;
+  margin-left: 3vh;
+  justify-content: center;
+}
+
+.footer-links a {
+  color: black;
+  opacity: 0.4;
+  text-decoration: none;
+  font-size: 2vh;
+  padding: 1vh;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+}
+
+.icon-style {
+  font-size: 4vh;
+}
+
+
+.footer-about {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 30px;
+
+
+}
+
+
+.link-style {
+
+  color: white;
+  font-size: 2vh;
+}
+
+.link_margin {
+  margin: 1vh;
+  border-color: grey;
+  margin-top: -1vh;
+  font-size: 2vh;
+  border-radius: 10px;
+  border-width: 0.5px;
+}
+.social-link-style {
+  padding: 2vh;
+  color: white;
+  font-size: 4vh;
+}
+
+</style>
+
+
+<br>
+<br>
+<div class="footer">
+
+
+
+
+  <br>
+  <div>
+    <center>
+    <%= link_to root_path, class: "navbar-wagon-brand" do %>
+      <%= image_tag "logo.png", height: 30 %>
+      <br>
+    <% end %>
+
+    <a class="link-style", style="margin-top: 3vh; margin-bottom: 6vh;" href="/">Entrevista Descomplicada</a>
+    <br>
+    <br>
+    <p class="link-style" style="margin-top: -2vh">Inscreva-se:</p>
+
+
+<!-- Begin Mailchimp Signup Form -->
+
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+      #mc_embed_signup{font:14px Helvetica,Arial,sans-serif; width:90%; max-width:500px; opacity: 100%;}
+  /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+
+    <div id="mc_embed_signup" style="background-color: transparent;">
+
+      <form action="https://gmail.us3.list-manage.com/subscribe/post?u=a0af30e40c118dd4db6006b86&amp;id=8133a06308" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <center>
+        <div id="mc_embed_signup_scroll">
+        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email" required>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a0af30e40c118dd4db6006b86_8133a06308" tabindex="-1" value=""></div>
+          <div class="clear"><input type="submit" value="Inscreva-se" name="subscribe" id="mc-embedded-subscribe" class="button btn-danger" style="background-color: #F0386B;"></div>
+        </div>
+      </center>
+      </form>
+    </div>
+
+<!-- END Mailchimp Signup Form -->
+
+
+
+   <p class="footer-text">Nos acompanhe nas redes sociais</p>
+    <div style="margin-top: -2.5vh;">
+      <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter icon-style social-link-style"></i></a>
+      <a href="https://www.facebook.com/"><i class="fab fa-facebook-square icon-style social-link-style"></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram icon-style social-link-style"></i></a>
+    </div>
+  </center>
+  </div>
+
+  <hr/ style="margin-top: 1vh; margin-bottom: 1vh;">
+  <div class="footer-links">
+    <a class="link-style" style="color: white;" href="/videos">Anuncie</a> <br>
+    <a class="link-style" style="color: white;" href="">Inscreva-se</a> <br>
+    <a class="link-style" style="color: white;" href="">Sobre</a> <br>
+    <a class="link-style" style="color: white;" href="">Contato</a> <br>
+    <a class="link-style" style="color: white;" href="">Blog</a> <br>
+  </div>
+
+  <br>
+
+</div>
+
