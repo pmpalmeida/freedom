@@ -167,7 +167,6 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
         <h4 style="font-size: 1.5vh;"><%= @firstpost["description"] %></h4>
       </div>
     </div>
-    <br>
   <% end %>
 
 
@@ -184,12 +183,13 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
       <% date = secondpost[1]["date"]%>
       <br>
 
+<!-- teste style ***************** -->
       <%= link_to link, {:style => 'text-decoration: none!important; color:black;'} do %>
-          <div style="display: flex; align-items: flex-start; background-color: white; border-radius: 3px;" class="zoom">
-          <div style="width: 60%;">
-            <img style="width: 100%; min-height: 40vh;; object-fit: cover;" src=<%= photo %> alt=<%= title %>>
+          <div style="background-color: white; border-radius: 3px;" class="zoom">
+          <div style="width: 100%;">
+            <img style="width: 100%; min-height: 30vh;; object-fit: cover;" src=<%= photo %> alt=<%= title %>>
           </div>
-          <div style="margin-left: 1vh; margin-right: 1vw;  padding: 1vh; width: 40%;">
+          <div style="margin-left: 1vh; margin-right: 1vw; padding: 1vh;">
             <h3 style="font-size: 1.5vh;"><%= date%></h3>
             <h4 style="font-size: 1.5vh; color: grey;"><%= category.upcase%></h4>
             <h2 style="font-size: 2.5vh; margin-top: 0vh;"><%= title %></h2>
@@ -198,6 +198,7 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
           </div>
           <br>
       <% end %>
+<!-- teste style ***************** -->
 
     </div>
   <% end %>
