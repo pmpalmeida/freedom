@@ -15,6 +15,7 @@ class PagesController < ApplicationController
     def posts_all
       file = "config/post.yml"
       posts_all = YAML.load(open(file).read)
+      posts_all = posts_all.reverse_each.to_h
     end
 
 end
