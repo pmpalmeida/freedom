@@ -6,7 +6,15 @@ class PagesController < ApplicationController
     @firstpost = @posts["ultimo"]
     @secondposts = @posts
 
+  end
 
+  def sobre
+  end
+
+  def termosdeuso
+  end
+
+  def politicadeprivacidade
   end
 
 

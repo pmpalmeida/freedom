@@ -4,6 +4,12 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
 
+  get "sobre", to: 'pages#sobre', as: :"sobre" #about page
+  get "politica-de-privacidade", to: 'pages#politicadeprivacidade', as: :"politica-de-privacidade" #politica-de-privacidade
+  get "termos-de-uso", to: 'pages#termosdeuso', as: :"termos-de-uso" #termos-de-uso
+
+
+
 #POSTS---------------------------------------------------------------------------------------------
 
   get "myth-my-homebrewed-admin-panel-works-fine-thanks", to: 'blog#post0', as: :"myth-my-homebrewed-admin-panel-works-fine-thanks"  #POST 0
