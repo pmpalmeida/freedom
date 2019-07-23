@@ -117,6 +117,13 @@
   font-family: 'Barriecito', cursive;
 }
 
+.icon-style-navbar {
+font-size: 3vh;
+padding: 2vh;
+color: gray;
+
+}
+
 </style>
 
 
@@ -132,6 +139,10 @@
 <div class="">  <!-- div para hide de menu bar -->
 
   <div class="navbar-wagon-right hidden-xs hidden-sm">
+    <a href="https://www.youtube.com/channel/UCsAuZS9eplm4ykzSYwpHeDw" target="_blank"><i class="fab fa-youtube icon-style-navbar"></i></a>
+    <a href="https://www.facebook.com/entrevistadescomplicada/" target="_blank"><i class="fab fa-facebook-square icon-style-navbar"></i></a>
+    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram  icon-style-navbar"></i></a>
+    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter icon-style-navbar hide"></i></a>
     <%= link_to "Blog", root_path, class: "navbar-wagon-item-cidade navbar-wagon-link hide" %>
     <%= link_to "Vídeos", root_path, class: "navbar-wagon-item-cidade navbar-wagon-link" %>
     <%= link_to "Contato", root_path, class: "navbar-wagon-item-cidade navbar-wagon-link hide" %>
@@ -166,6 +177,23 @@
             <li>
               <%= link_to sobre_path do %>
                 <i class="fa fa-cog"></i>  <%= t(".settings", default: "Sobre") %>
+              <% end %>
+            </li>
+            <br>
+            <center>MIDIAS SOCIAIS</center>
+            <li>
+              <%= link_to "https://www.youtube.com/channel/UCsAuZS9eplm4ykzSYwpHeDw" do %>
+                <i class="fab fa-youtube"></i>  <%= t(".settings", default: "YouTube") %>
+              <% end %>
+            </li>
+            <li>
+              <%= link_to "https://www.facebook.com/entrevistadescomplicada/" do %>
+                <i class="fab fa-facebook-square"></i>  <%= t(".settings", default: "Facebook") %>
+              <% end %>
+            </li>
+            <li>
+              <%= link_to "https://www.facebook.com/entrevistadescomplicada/" do %>
+                <i class="fab fa-instagram "></i>  <%= t(".settings", default: "Instagram") %>
               <% end %>
             </li>
           </ul>
