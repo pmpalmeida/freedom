@@ -55,10 +55,9 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
 
 <div class="videoContainer">
 
-
-  <div style="object-fit: cover; opacity: 0.2;">
-    <%= video_tag "pexels2.mp4", autoplay: :autoplay, loop: :loop, mute: :mute, class: "home_video" %>
-  </div>
+  <video id="videoTrailer" style="object-fit: cover; opacity: 0.2;" autoplay muted loop>
+    <source src="/assets/images/pexels.mp4" type="video/mp4">
+  </video>
 
   <div style="position: relative; margin-top: -52vh;">
     <div class="container">
