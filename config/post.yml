@@ -44,7 +44,7 @@ post1:
  title: "POST 1"
  link: "/testexyz.html"
  category: "blah blah"
- photo: "https://www.novomomento.com.br/images/noticias/candidata-a-miss-bumbum-mostra-bastante.jpg"
+ photo: "https://www.glenstone.org/wp-content/uploads/prod/2018/07/AV_Landscape-Hero-Contour-2993-1110x696.jpg"
  video: "https://www.youtube.com/embed/cahHk3ockf0"
  text:
   "
@@ -55,21 +55,6 @@ post1:
   "
 #------------------------------------------------------- END POST -----------------------------------------------------------------------
 
-post2:
- date: "POST 2"
- title: "post2"
- link: "/bla-bla2.html"
- category: "blah blah"
- photo: "https://www.novomomento.com.br/images/noticias/candidata-a-miss-bumbum-mostra-bastante.jpg"
- video: "https://www.youtube.com"
- text:
-  "
-  git init git add . git commit hub create    # To create a repo on GitHub <br /> <br />git remote -v # Check that the
-  `origin`<br> \n remote is set.git push origin master
-  <center style=\"color: green; font-size: 1.1em\" > Administrators only </center>
-
-  "
-#------------------------------------------------------- END POST -----------------------------------------------------------------------
 
 ultimo:
  date: "POST 3"
