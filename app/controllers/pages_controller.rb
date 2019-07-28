@@ -11,6 +11,9 @@ class PagesController < ApplicationController
   def sobre
   end
 
+  def obrigado
+  end
+
   def termosdeuso
   end
 

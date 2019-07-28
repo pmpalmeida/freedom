@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get "sobre", to: 'pages#sobre', as: :"sobre" #about page
   get "politica-de-privacidade", to: 'pages#politicadeprivacidade', as: :"politica-de-privacidade" #politica-de-privacidade
   get "termos-de-uso", to: 'pages#termosdeuso', as: :"termos-de-uso" #termos-de-uso
+  get "obrigado", to: 'pages#obrigado', as: :"muito-obrigado" #termos-de-uso
 
 
 
