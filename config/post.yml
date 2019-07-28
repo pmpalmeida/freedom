@@ -9,7 +9,7 @@
 
 post0:
  date: "15 Julho 2019"
- title: "Como nasceu o projeto Entrevista Descomplicada"
+ title: "Como nasceu o projeto Entrevista Descomplicada."
  description: "O que nós acreditamos sobre processos seletivos"
  link: "/como-nasceu-o-projeto-entrevista-descomplicada.html"
  category: "Entrevista"
@@ -32,17 +32,21 @@ post0:
 
 
 post1:
- date: "POST 1"
- title: "POST 1"
- link: "/testexyz.html"
- category: "blah blah"
- photo: "https://www.glenstone.org/wp-content/uploads/prod/2018/07/AV_Landscape-Hero-Contour-2993-1110x696.jpg"
- video: "https://www.youtube.com/embed/cahHk3ockf0"
+ date: "17 Julho 2019"
+ title: "Como identificar pontos de melhoria em processos seletivos?"
+ description: "Identifique o que você pode menlhorar com essas dicas."
+ link: "/como-identificar-pontos-de-melhoria-em-processos-seletivos.html"
+ category: "Entrevista"
+ photo: "https://images.pexels.com/photos/356043/pexels-photo-356043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+ video: "https://www.youtube.com/embed/aw6KqlzA53Y"
  text:
   "
-  git init git add . git commit hub create    # To create a repo on GitHub <br /> <br />git remote -v # Check that the
-  `origin`<br> \n remote is set.git push origin master
-  <center style=\"color: green; font-size: 1.1em\" > Administrators only </center>
+  <p><span style='font-weight: 400;'>Voc&ecirc; j&aacute; fez um processo seletivo e depois de muitas etapas simplesmente recebeu um 'sucesso na sua jornada' sem nenhuma explica&ccedil;&atilde;o aparente? N&oacute;s tamb&eacute;m, por isso desenvolvemos esse m&eacute;todo para, pelo menos, tentar rastrear o que pode ter acontecido de forma a melhorar a pr&oacute;xima entrevista.</span></p>
+<p>&nbsp;</p>
+<p><span style='font-weight: 400;'>No v&iacute;deo a seguir voc&ecirc; vai <strong>conhecer os dois m&eacute;todos.</strong> O primeiro &eacute; bem simples e <strong>requer somente um email</strong>, por&eacute;m muitas vezes n&atilde;o d&aacute; a resposta esperada. <strong>O segundo &eacute; mais trabalhoso mas pelo menos garante que voc&ecirc; est&aacute; no caminho certo</strong>.</span></p>
+<p>&nbsp;</p>
+<p><span style='font-weight: 400;'>Veja mais sobre como identificar pontos de melhoria em processos seletivos nos v&iacute;deos a seguir:</span></p>
+
 
   "
 #------------------------------------------------------- END POST -----------------------------------------------------------------------
