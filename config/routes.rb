@@ -13,7 +13,7 @@ Rails.application.routes.draw do
 
 #POSTS---------------------------------------------------------------------------------------------
 
-  get "myth-my-homebrewed-admin-panel-works-fine-thanks", to: 'blog#post0', as: :"myth-my-homebrewed-admin-panel-works-fine-thanks"  #POST 0
+  get "como-nasceu-o-projeto-entrevista-descomplicada", to: 'blog#post0', as: :"como-nasceu-o-projeto-entrevista-descomplicada"  #POST 0
   get "bla-bla2", to: 'blog#post1', as: :"bla-bla2" #POST 1
   get "testexyz", to: 'blog#post2', as: :"testexyz" #POST 2
   get "bla-bla4", to: 'blog#post3', as: :"bla-bla4" #POST 3

@@ -8,31 +8,23 @@
 
 
 post0:
- date: "POST 0"
- title: "POST 2: Myth #3 - My homebrewed admin panel works fine, thanks!"
- description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate a officia natus quod, architecto, totam, cumque, ab"
- link: "/myth-my-homebrewed-admin-panel-works-fine-thanks.html"
- category: "Test"
- photo: "https://www.glenstone.org/wp-content/uploads/prod/2018/07/AV_Landscape-Hero-Contour-2993-1110x696.jpg"
- video: "https://www.youtube.com/embed/cahHk3ockf0"
+ date: "15 Julho 2019"
+ title: "Como nasceu o projeto Entrevista Descomplicada"
+ description: "O que nós acreditamos sobre processos seletivos"
+ link: "/como-nasceu-o-projeto-entrevista-descomplicada.html"
+ category: "Entrevista"
+ photo: "https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+ video: "https://www.youtube.com/embed/kOkvLbzp8Ow"
  text:
   "
 
-<p>When you run an operationally intense company, you know that operational excellence is key to success. Taking your company from 0 to 1 can therefore only be done by investing in your operations. This is why companies build operational admin panels that give structure to the responsibilities of their operational team members and allow them to deliver the best possible experience to their customers.</p>
-<p>However, your business, its product and services evolve at dazzling speed, which has repercussion on your operational tools.&nbsp;<strong>They quickly become limiting, frustrating, or even deprecated</strong>. In this short post, I would therefore like to outline the costs associated with running an operational admin panel, and, with this in mind, deep-dive into the most important qualities one should look for when selecting operational tools for a a growing company.</p>
-<h3 id='costs'>Costs</h3>
-<p>Operational admin panels do not come free, nor do they come cheap. Building and maintaining them requires that you invest considerable amounts of resources that are not all easy to measure, quantify and assess.</p>
-<h4 id='costs-of-building-and-maintaining-your-own-admin-panel'>Costs of building and maintaining your own admin panel</h4>
-<ol>
-<li><strong>Implementation efforts</strong>: An important cost resides in the initial implementation and the ongoing efforts required by your current admin panel. Even after the initial implementation a lot of energy gets lost in the constant back and forth between the admin users, and the product and development teams. They are almost continuously making so-called &ldquo;little modifications&rdquo; to improve the user experience, taking time and energy away from structural improvements, your customer-facing product and other projects.</li>
-<li><strong>Maintenance costs</strong>: Another cost you should consider is the sum of resources required to keep your admin panel up and running at all times. As your operational admin panel is key for your business teams, they need to be able to work on it at all times, for downtime brings with it large opportunity costs.</li>
-<li><strong>Suboptimal productivity</strong>: A hidden opportunity cost often forgotten is when the productivity of your operational teams is lessened by small regressions and inefficiencies introduced into your current admin panels (see below) or, even more importantly, by important missing features that would otherwise unlock value for your business.</li>
-</ol>
-<p><img style='display: block; margin-left: auto; margin-right: auto;' src='https://www.novomomento.com.br/images/noticias/candidata-a-miss-bumbum-mostra-bastante.jpg' alt='bunduda' width='200' height='200' /></p>
-
-
-
-
+<p><span style='font-weight: 400;'>O projeto Entrevista Descomplicada nasceu da insatisfa&ccedil;&atilde;o com os processos de sele&ccedil;&atilde;o das grandes empresas. Cada vez mais n&oacute;s (candidatos) estamos mais preparados e ainda assim </span><strong>recebemos um N&Atilde;O em entrevistas sem nenhum tipo de explica&ccedil;&atilde;o</strong><span style='font-weight: 400;'>. Aqui o candidato vai receber informa&ccedil;&otilde;es em detalhe sobre como se preparar e conseguir a t&atilde;o sonhada vaga de trabalho.</span></p>
+<p>&nbsp;</p>
+<p><span style='font-weight: 400;'>A ideia do projeto &eacute; fornecer dicas simples de como se preparar para os processos seletivos de forma que o candidato consiga se expressar de forma clara, contando todas as suas qualidades, de forma a conseguir a aprova&ccedil;&atilde;o! Neste processo vamos dizer exatamente como &eacute; o processo seletivo, o que os entrevistadores pensam e principalmente, como atravessar todas as 'pegadinhas' que entrevistadores muitas vezes acham necess&aacute;rio colocar na frente do candidato. Vamos dizer a verdade nua e crua do que esperar em uma entrevista e o que fazer para sair com a vaga a m&atilde;o.</span></p>
+<p>&nbsp;</p>
+<p><span style='font-weight: 400;'>Se inscreva para receber as dicas toda semana por email. Esperamos por voc&ecirc; e sua vaga dos sonhos te espera em breve!! : )</span></p>
+<p>&nbsp;</p>
+<p><span style='font-weight: 400;'>Veja abaixo o trailer do canal!!!</span></p>
 
 
   "
