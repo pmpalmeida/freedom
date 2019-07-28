@@ -53,31 +53,20 @@ post1:
 
 
 ultimo:
- date: "POST 3"
- title: "POST 2:teste"
- description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate a officia natus quod, architecto, totam, cumque, ab"
- link: "/myth-my-homebrewed-admin-panel-works-fine-thanks.html"
- category: "Test"
- photo: "https://www.glenstone.org/wp-content/uploads/prod/2018/07/AV_Landscape-Hero-Contour-2993-1110x696.jpg"
- video: "https://www.youtube.com/embed/cahHk3ockf0"
+ date: "25 Julho 2019"
+ title: "Quais os pilares de um bom currículo e porque isso é importante?"
+ description: "Saiba quais os pilares de um bom currículo e comunique de forma clara seu potencial"
+ link: "/quais-os-pilares-de-um-bom-curriculo.html"
+ category: "Currículo"
+ photo: "https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+ video: "https://www.youtube.com/embed/iTe6Ybet0EY"
  text:
   "
-
-<p>When you run an operationally intense company, you know that operational excellence is key to success. Taking your company from 0 to 1 can therefore only be done by investing in your operations. This is why companies build operational admin panels that give structure to the responsibilities of their operational team members and allow them to deliver the best possible experience to their customers.</p>
-<p>However, your business, its product and services evolve at dazzling speed, which has repercussion on your operational tools.&nbsp;<strong>They quickly become limiting, frustrating, or even deprecated</strong>. In this short post, I would therefore like to outline the costs associated with running an operational admin panel, and, with this in mind, deep-dive into the most important qualities one should look for when selecting operational tools for a a growing company.</p>
-<h3 id='costs'>Costs</h3>
-<p>Operational admin panels do not come free, nor do they come cheap. Building and maintaining them requires that you invest considerable amounts of resources that are not all easy to measure, quantify and assess.</p>
-<h4 id='costs-of-building-and-maintaining-your-own-admin-panel'>Costs of building and maintaining your own admin panel</h4>
-<ol>
-<li><strong>Implementation efforts</strong>: An important cost resides in the initial implementation and the ongoing efforts required by your current admin panel. Even after the initial implementation a lot of energy gets lost in the constant back and forth between the admin users, and the product and development teams. They are almost continuously making so-called &ldquo;little modifications&rdquo; to improve the user experience, taking time and energy away from structural improvements, your customer-facing product and other projects.</li>
-<li><strong>Maintenance costs</strong>: Another cost you should consider is the sum of resources required to keep your admin panel up and running at all times. As your operational admin panel is key for your business teams, they need to be able to work on it at all times, for downtime brings with it large opportunity costs.</li>
-<li><strong>Suboptimal productivity</strong>: A hidden opportunity cost often forgotten is when the productivity of your operational teams is lessened by small regressions and inefficiencies introduced into your current admin panels (see below) or, even more importantly, by important missing features that would otherwise unlock value for your business.</li>
-</ol>
-<p><img style='display: block; margin-left: auto; margin-right: auto;' src='https://www.novomomento.com.br/images/noticias/candidata-a-miss-bumbum-mostra-bastante.jpg' alt='bunduda' width='200' height='200' /></p>
-
-
-
-
+ <p><span style='font-weight: 400;'>&Eacute; necess&aacute;rio muita clareza para se comunicar de forma clara as informa&ccedil;&otilde;es de um curr&iacute;culo. A forma mais f&aacute;cil de se conseguir isso &eacute; seguir uma boa estrutura na hora de escrever o CV. </span><strong>Para isso &eacute; preciso conhecer os pilares de uma boa estrutura e como se expressar atrav&eacute;s deles.&nbsp;</strong></p>
+<p>&nbsp;</p>
+<p><span style='font-weight: 400;'>Nesse v&iacute;deo mostramos os tr&ecirc;s pilares de um bom CV e como isso se traduz na pr&aacute;tica como voc&ecirc; deve montar o seu curr&iacute;culo de forma a expressar todo o seu potencial em uma entrevista.</span></p>
+<p>&nbsp;</p>
+<p><span style='font-weight: 400;'>Veja em detalhes no pr&oacute;ximo v&iacute;deo:</span></p>
 
 
   "
