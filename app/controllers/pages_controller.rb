@@ -14,6 +14,9 @@ class PagesController < ApplicationController
   def obrigado
   end
 
+  def curriculocampeao
+  end
+
   def termosdeuso
   end
 
