@@ -6,10 +6,14 @@
    }
 
    .max-gif-size {
-
       margin-top: -20vh;
-
    }
+
+  .cvback {
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
 </style>
 
 
@@ -55,11 +59,13 @@
       </div>
     </div>
 
-    <div class="col-xs-12 col-sm-5 col-md-5">
+    <div class="col-xs-12 col-sm-5 col-md-5 cvback">
       <br>
-      <%= image_tag "zecv.png", class: "img-responsive" %>
-      <%= image_tag "recompensa-gif.gif", class: "img-responsive max-gif-size" %>
-
+      <div>
+        <%= image_tag "zecv.png", class: "img-responsive" %>
+        <%= image_tag "recompensa-gif.gif", class: "img-responsive max-gif-size" %>
+      </div>
+      <br>
     </div>
 
   </div>
