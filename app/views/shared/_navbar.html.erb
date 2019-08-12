@@ -143,10 +143,11 @@ color: gray;
   <div class="navbar-wagon-right hidden-xs hidden-sm">
     <a href="https://www.youtube.com/channel/UCsAuZS9eplm4ykzSYwpHeDw" target="_blank"><i class="fab fa-youtube icon-style-navbar"></i></a>
     <a href="https://www.facebook.com/entrevistadescomplicada/" target="_blank"><i class="fab fa-facebook-square icon-style-navbar"></i></a>
-    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram  icon-style-navbar"></i></a>
+    <a href="https://www.instagram.com/entrevistadescomplicadaoficial/" target="_blank"><i class="fab fa-instagram  icon-style-navbar"></i></a>
     <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter icon-style-navbar hide"></i></a>
     <%= link_to "Blog", root_path, class: "navbar-wagon-item-cidade navbar-wagon-link hide" %>
-    <%= link_to "Vídeos", root_path, class: "navbar-wagon-item-cidade navbar-wagon-link" %>
+    <%= link_to "Vídeos", root_path, class: "navbar-wagon-item-cidade navbar-wagon-link hide" %>
+    <%= link_to "Recursos", curriculo_campeao_path, class: "navbar-wagon-item-cidade navbar-wagon-link" %>
     <%= link_to "Contato", root_path, class: "navbar-wagon-item-cidade navbar-wagon-link hide" %>
     <%= link_to "Sobre", sobre_path, class: "navbar-wagon-item-cidade navbar-wagon-link" %>
   </div>
@@ -166,9 +167,14 @@ color: gray;
                 <i class="fa fa-bullhorn"></i>  <%= t(".settings", default: "Blog") %>
               <% end %>
             </li>
-            <li>
+            <li class="hide">
               <%= link_to root_path do %>
                 <i class="fa fa-bullhorn"></i>  <%= t(".settings", default: "Vídeos") %>
+              <% end %>
+            </li>
+            <li>
+              <%= link_to curriculo_campeao_path do %>
+                <i class="fa fa-bullhorn"></i>  <%= t(".settings", default: "Recursos") %>
               <% end %>
             </li>
             <li class="hide">
@@ -194,7 +200,7 @@ color: gray;
               <% end %>
             </li>
             <li>
-              <%= link_to "https://www.facebook.com/entrevistadescomplicada/" do %>
+              <%= link_to "https://www.instagram.com/entrevistadescomplicadaoficial/" do %>
                 <i class="fab fa-instagram "></i>  <%= t(".settings", default: "Instagram") %>
               <% end %>
             </li>
