@@ -52,7 +52,7 @@ post1:
 #------------------------------------------------------- END POST -----------------------------------------------------------------------
 
 
-ultimo:
+post2:
  date: "25 Julho 2019"
  title: "Quais os pilares de um bom currículo e porque isso é importante?"
  description: "Saiba quais os pilares de um bom currículo e comunique de forma clara seu potencial"
@@ -67,6 +67,23 @@ ultimo:
 <p><span style='font-weight: 400;'>Nesse v&iacute;deo mostramos os tr&ecirc;s pilares de um bom CV e como isso se traduz na pr&aacute;tica como voc&ecirc; deve montar o seu curr&iacute;culo de forma a expressar todo o seu potencial em uma entrevista.</span></p>
 <p>&nbsp;</p>
 <p><span style='font-weight: 400;'>Veja em detalhes no pr&oacute;ximo v&iacute;deo:</span></p>
+
+
+  "
+#------------------------------------------------------- END POST -----------------------------------------------------------------------
+
+ultimo:
+ date: "19 Agosto 2019"
+ title: "Você sabe quais as perguntas mais comuns em uma entrevista de emprego? Aprenda quais são e como responder cada uma delas!"
+ description: "Descubra as perguntas mais recorrentes em toda entrevista e se prepare préviamente."
+ link: "/as-5-perguntas-mais-comuns-em-entrevistas.html"
+ category: "Currículo"
+ photo: "https://images.pexels.com/photos/1226398/pexels-photo-1226398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+ video: "https://www.youtube.com/embed/9GB2PAZLRWo"
+ text:
+  "
+<p><span style='font-weight: 400;'>Voc&ecirc; sabe quais as perguntas mais comuns em uma entrevista de emprego? Aprenda quais s&atilde;o e como responder cada uma delas!</span></p>
+<p><br /><span style='font-weight: 400;'>Saber antecipadamente as perguntas de qualquer situa&ccedil;&atilde;o ajuda a preparar de </span><strong>forma convincente e estruturada</strong><span style='font-weight: 400;'> as respostas. Neste v&iacute;deo vamos explorar as perguntas mais frequentes em uma entrevista assim como poss&iacute;veis respostas pra cada uma delas. O v&iacute;deo &eacute; longo mas sem d&uacute;vida vale a pena assistir at&eacute; o final uma vez que o conte&uacute;do vai, sem d&uacute;vida, </span><strong>te preparar pra uma entrevista melhor!</strong></p>
 
 
   "
