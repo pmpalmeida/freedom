@@ -20,6 +20,14 @@
   position: relative;
   margin-top: -2vh;
 }
+
+#my_iFrame{
+height: 400px;
+width: 100%;
+max-width: 800px;
+
+}
+
 </style>
 
 
@@ -29,22 +37,38 @@
   <img style="object-fit: fill;" src=<%= @post["photo"] %> alt=<%= @post["title"] %>>
 </div>
 
-<div class="container" style="position: relative; margin-top: -2vh;" >
+<div class="container" style="position: relative; margin-top: -7vh;" >
+
+
+
   <div class="postframe">
+
     <center>
       <h2 style="font-size: 2vh;"><%= @post["date"].html_safe%></h2>
       <h1 style="font-size: 4vh;"><%= @post["title"].html_safe%></h1>
       <br>
     </center>
-    <%= @post["text"].html_safe%>
 
-    <% if !@post["video"].nil?  %>
-    <h3 style="font-size: 2vh;">Veja o vídeo completo:</h3>
-      <center>
-        <iframe width="100%" max-width="500px" height="400px" src=<%= @post["video"].html_safe%> frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </center>
+
+    <% if !@post["video"].nil? %>
+
+        <div>
+        <h3 style="font-size: 2vh; font-style: italic;">Veja o tutorial completo:</h3>
+        <hr style="margin-top: -0.7vh;">
+        <center>
+        <iframe id="my_iFrame" src=<%= @post["video"].html_safe%> frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </center>
+        </div>
+
     <% end %>
+    <br>
+    <br>
+    <%= @post["text"].html_safe%>
   </div>
+
+  <br>
+  <br>
+  <div class="fb-comments" data-href="http://www.entrevistadescomplicada.org" data-width="" data-numposts="5"></div>
 </div>
 
 <br>
