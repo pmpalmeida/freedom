@@ -105,8 +105,8 @@ post4:
   "
 #------------------------------------------------------- END POST -----------------------------------------------------------------------
 
-ultimo:
- date: "16 Setembro 2019"
+post6:
+ date: "16 Outubro 2019"
  title: "Como escrever seu currículo sem ter experiências profissionais?"
  description: "Aprenda a escrever seu currículo se você é recém-formado e ainda não possuí experiência profissional relevante."
  link: "/como-escrever-seu-curriculo-sem-ter-experiencias-profissionais.html"
@@ -121,4 +121,18 @@ ultimo:
   "
 #------------------------------------------------------- END POST -----------------------------------------------------------------------
 
+ultimo:
+ date: "29 Outubro 2019"
+ title: "Como lidar com exigências absurdas de entrevistas de emprego?"
+ description: "Aprenda a lidar com as exigências absurdas das oportunidades profissionais que o mercado exige!"
+ link: "/como-lidar-com-exigencias-absurdas-de-entrevistas-de-emprego.html"
+ category: "Currículo"
+ photo: "https://images.pexels.com/photos/38630/bodybuilder-weight-training-stress-38630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+ video: "https://www.youtube.com/embed/eBJUUPX-Avw"
+ text:
+  "
+<p>Cada vez mais o mercado de trabalho exige habilidades que só o superman tem, no entanto tenha a certeza que todo mundo é, de fato, um ser humano normal. Então qual a diferença entre os que conseguem uma vaga de trabalho pra aqueles que ainda estão procurando uma oportunidade? Veja esse vídeo e descubra!!!</p>
 
+
+  "
+#------------------------------------------------------- END POST -----------------------------------------------------------------------

@@ -26,6 +26,10 @@ class BlogController < ApplicationController
      @post = posts_all[5]
   end
 
+  def post6
+     @post = posts_all[6]
+  end
+
 
 
 
