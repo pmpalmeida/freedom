@@ -10,6 +10,10 @@ Rails.application.routes.draw do
   get "obrigado", to: 'pages#obrigado', as: :"muito-obrigado" #termos-de-uso
   get "curriculocampeao", to: 'pages#curriculocampeao', as: :"curriculo-campeao" #bonus 1
 
+  #paginas de lançamentoo
+
+  get "lan-inscricao", to: 'pages#lan_inscricao', as: :"lan-inscricao"
+
 
 
 #POSTS---------------------------------------------------------------------------------------------

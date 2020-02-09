@@ -23,6 +23,9 @@ class PagesController < ApplicationController
   def politicadeprivacidade
   end
 
+  def lan_inscricao
+  end
+
 
   private
 
