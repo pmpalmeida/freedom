@@ -29,6 +29,9 @@ class PagesController < ApplicationController
   def lan_obrigado
   end
 
+  def lan_live
+  end
+
 
 
   private
