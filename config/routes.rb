@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   #paginas de lançamentoo
 
   get "lan-inscricao", to: 'pages#lan_inscricao', as: :"lan-inscricao"
+  get "lan-obrigado", to: 'pages#lan_obrigado', as: :"lan-obrigado"
 
 
 

@@ -26,6 +26,10 @@ class PagesController < ApplicationController
   def lan_inscricao
   end
 
+  def lan_obrigado
+  end
+
+
 
   private
 
