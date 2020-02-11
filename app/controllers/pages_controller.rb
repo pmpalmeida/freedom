@@ -35,6 +35,9 @@ class PagesController < ApplicationController
     #redirect_to(root_path)
   end
 
+  def lan_confirmacao
+    #redirect_to(root_path)
+  end
 
 
   private
