@@ -45,7 +45,7 @@
 
 /* Navbar link */
 .navbar-wagon-link {
-  color: #616668;
+  color: #6E6E6E;
   font-size: 14px;
 }
 .navbar-wagon-link:hover {
@@ -74,7 +74,7 @@
 .navbar-wagon-dropdown-menu li > a {
   transition: color 0.3s ease;
   font-weight: lighter !important;
-  color: #999999 !important;
+  color: #6E6E6E !important;
   font-size: 15px !important;
   line-height: 22px !important;
   padding: 10px 20px;
@@ -145,6 +145,7 @@ color: gray;
     <a href="https://www.facebook.com/entrevistadescomplicada/" target="_blank"><i class="fab fa-facebook-square icon-style-navbar"></i></a>
     <a href="https://www.instagram.com/entrevistadescomplicadaoficial/" target="_blank"><i class="fab fa-instagram  icon-style-navbar"></i></a>
     <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter icon-style-navbar hide"></i></a>
+    <a href="https://www.linkedin.com/company/entrevista-descomplicada" target="_blank"><i class="fab fa-linkedin icon-style-navbar"></i></a>
     <%= link_to "Blog", root_path, class: "navbar-wagon-item-cidade navbar-wagon-link hide" %>
     <%= link_to "Vídeos", root_path, class: "navbar-wagon-item-cidade navbar-wagon-link hide" %>
     <%= link_to "Recursos", curriculo_campeao_path, class: "navbar-wagon-item-cidade navbar-wagon-link" %>
@@ -188,7 +189,7 @@ color: gray;
               <% end %>
             </li>
             <br>
-            <center>MIDIAS SOCIAIS</center>
+            <center><p style="color: #6E6E6E;">MIDIAS SOCIAIS</p></center>
             <li>
               <%= link_to "https://www.youtube.com/channel/UCsAuZS9eplm4ykzSYwpHeDw" do %>
                 <i class="fab fa-youtube"></i>  <%= t(".settings", default: "YouTube") %>
@@ -202,6 +203,11 @@ color: gray;
             <li>
               <%= link_to "https://www.instagram.com/entrevistadescomplicadaoficial/" do %>
                 <i class="fab fa-instagram "></i>  <%= t(".settings", default: "Instagram") %>
+              <% end %>
+            </li>
+            <li>
+              <%= link_to "https://www.linkedin.com/company/entrevista-descomplicada" do %>
+                <i class="fab fa-linkedin "></i>  <%= t(".settings", default: "LinkedIn") %>
               <% end %>
             </li>
           </ul>
