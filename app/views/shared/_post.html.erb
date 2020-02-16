@@ -28,6 +28,28 @@ max-width: 800px;
 
 }
 
+
+.iframe-container-post {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+
+}
+
+.iframe-container-post iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+/* 4x3 Aspect Ratio */
+.iframe-container-4x3-post {
+  padding-top: 95%;
+}
+
 </style>
 
 
@@ -52,23 +74,24 @@ max-width: 800px;
 
     <% if !@post["video"].nil? %>
 
-        <div>
-        <h3 style="font-size: 2vh; font-style: italic;">Veja o tutorial completo:</h3>
-        <hr style="margin-top: -0.7vh;">
-        <center>
-        <iframe id="my_iFrame" src=<%= @post["video"].html_safe%> frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </center>
+      <h3 style="font-size: 2vh; font-style: italic;">Veja o tutorial completo:</h3>
+      <hr style="margin-top: -0.7vh;">
+      <%= @post["text"].html_safe%>
+      <br>
+
+        <div class="iframe-container-post">
+          <iframe src=<%= @post["video"].html_safe%> frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
     <% end %>
     <br>
-    <br>
-    <%= @post["text"].html_safe%>
   </div>
 
   <br>
   <br>
+
   <div class="fb-comments" data-href="http://www.entrevistadescomplicada.org" data-width="" data-numposts="5"></div>
+
 </div>
 
 <br>
