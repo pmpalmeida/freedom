@@ -17,6 +17,8 @@ Rails.application.routes.draw do
   get "lan-live", to: 'pages#lan_live', as: :"lan-live"
   get "lan-confirmacao", to: 'pages#lan_confirmacao', as: :"lan-confirmacao"
 
+  get "sua-ajuda", to: 'pages#sua_ajuda', as: :"sua-ajuda"
+
 
 
 #POSTS---------------------------------------------------------------------------------------------
