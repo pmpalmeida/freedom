@@ -24,23 +24,23 @@ class PagesController < ApplicationController
   end
 
   def lan_inscricao
-    #redirect_to(root_path)
+    redirect_to(root_path)
   end
 
   def lan_obrigado
-    #redirect_to(root_path)
+    redirect_to(root_path)
   end
 
   def lan_live
-    #redirect_to(root_path)
+    redirect_to(root_path)
   end
 
   def lan_confirmacao
-    #redirect_to(root_path)
+    redirect_to(root_path)
   end
 
   def sua_ajuda
-    #redirect_to(root_path)
+    redirect_to(root_path)
   end
 
 
