@@ -41,7 +41,7 @@ class PagesController < ApplicationController
   end
 
   def sua_ajuda
-    redirect_to(root_path)
+    #redirect_to(root_path)
   end
 
 
