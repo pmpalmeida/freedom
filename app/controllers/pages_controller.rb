@@ -24,7 +24,7 @@ class PagesController < ApplicationController
   end
 
   def lan_inscricao
-    redirect_to(root_path)
+    #redirect_to(root_path)
   end
 
   def lan_obrigado
