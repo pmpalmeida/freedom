@@ -28,7 +28,7 @@ class PagesController < ApplicationController
   end
 
   def lan_obrigado
-    redirect_to(root_path)
+    #redirect_to(root_path)
   end
 
   def lan_live
@@ -37,11 +37,12 @@ class PagesController < ApplicationController
   end
 
   def lan_confirmacao
-    redirect_to(root_path)
+    #redirect_to(root_path)
   end
 
   def sua_ajuda
     #redirect_to(root_path)
+    redirect_to(lan_inscricao_path)
   end
 
 
