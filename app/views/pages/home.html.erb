@@ -60,6 +60,10 @@ font-family: 'Barriecito';
 font-weight: bold;
 }
 
+.fit-image{
+  max-height: 35vh;
+}
+
 </style>
 
 
@@ -70,11 +74,11 @@ font-weight: bold;
 
   <img id="videoTrailer" style="object-fit: cover; height: 60vh; opacity: 0.15;" src="/assets/backgroundpage.gif" alt="sobre/about">
 
-  <div style="position: relative; margin-top: -50vh;">
+  <div style="position: relative; margin-top: -45vh;">
     <div class="container">
-    <%= image_tag "logo.png", height: 130, alt: "Entrevista Descomplicada" %> <br>
-    <h1 class="title-text">ENTREVISTA DESCOMPLICADA</h1>
-    <h2 class="" style="font-size: 2.2vh; margin: 0.2vh; color: white;">Aprenda os segredos das entrevistas de emprego e conquiste a vaga de trabalho</h2>
+    <%= image_tag "logofim.png", class: 'img-responsive center-block fit-image', alt: "Entrevista Descomplicada" %> <br>
+
+    <h2 class="" style="font-size: 2.2vh; margin: 0.2vh; margin-top: -2vh; color: white;">Aprenda os segredos das entrevistas de emprego e conquiste a vaga de trabalho</h2>
     </div>
       <div style="display: flex; align-items: center; justify-content: center;">
         <a href="" class="btn btn-text hide">Inscreva-se</a>
