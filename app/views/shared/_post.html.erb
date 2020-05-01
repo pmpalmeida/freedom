@@ -53,11 +53,16 @@ max-width: 800px;
 </style>
 
 
-<div style="background-color: #F8F8F8;">
+<div style="
+background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+">
 
 <div class="photoContainer">
   <img style="object-fit: fill;" src=<%= @post["photo"] %> alt=<%= @post["title"] %>>
 </div>
+
 
 <div class="container" style="position: relative; margin-top: -7vh;" >
 
@@ -66,7 +71,11 @@ max-width: 800px;
   <div class="postframe">
 
     <center>
-      <h2 style="font-size: 2vh;"><%= @post["date"].html_safe%></h2>
+
+      <%= image_tag "logofim.png", height: 100 %>
+      <h3 style="font-size: 2vh;">por Zé Ricardo | co-fundador da Entrevista Descomplicada</h3>
+      <br>
+      <h2 style="font-size: 2vh;" class="hide"><%= @post["date"].html_safe%></h2>
       <h1 style="font-size: 4vh;"><%= @post["title"].html_safe%></h1>
       <br>
     </center>
@@ -90,7 +99,7 @@ max-width: 800px;
   <br>
   <br>
 
-  <div class="fb-comments" data-href="http://www.entrevistadescomplicada.org" data-width="" data-numposts="5"></div>
+  <div class="fb-comments" style="background-color: white;" data-href="http://www.entrevistadescomplicada.org" data-width="" data-numposts="5"></div>
 
 </div>
 
