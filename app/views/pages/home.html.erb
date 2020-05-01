@@ -2,9 +2,10 @@
 
 
 
+
+
 <style>
-/* Play with this value */
-@import url('https://fonts.googleapis.com/css?family=Barriecito&display=swap');
+
 
 .videoContainer {
 
@@ -43,7 +44,6 @@ background: linear-gradient(to right, #9a1278, #003fff); /* W3C, IE 10+/ Edge, F
   background-color: #F0386B;
   margin: 20px;
   font-size: 2.5vh;
-  font-family: 'Barriecito', cursive;
 }
 
 .zoom:hover {
@@ -64,6 +64,10 @@ font-weight: bold;
   max-height: 35vh;
 }
 
+.fit-image-courses{
+  max-height: 25vh;
+}
+
 </style>
 
 
@@ -71,26 +75,17 @@ font-weight: bold;
 
 
 <div class="videoContainer">
-
   <img id="videoTrailer" style="object-fit: cover; height: 60vh; opacity: 1;" src="/assets/background2.gif" alt="sobre/about">
-
   <div style="position: relative; margin-top: -45vh;">
     <div class="container">
-    <%= image_tag "logofim.png", class: 'img-responsive center-block fit-image', alt: "Entrevista Descomplicada" %> <br>
-
-    <h2 class="" style="font-size: 2.5vh; margin: 0.2vh; margin-top: -2vh; color: white;">Aprenda os segredos das entrevistas de emprego e conquiste a vaga de trabalho</h2>
+      <%= image_tag "logofim.png", class: 'img-responsive center-block fit-image', alt: "Entrevista Descomplicada" %> <br>
+      <h2 class="" style="font-size: 2.5vh; margin: 0.2vh; margin-top: -2vh; color: white;">Aprenda os segredos das entrevistas de emprego e conquiste a vaga de trabalho</h2>
     </div>
-      <div style="display: flex; align-items: center; justify-content: center;">
-        <a href="" class="btn btn-text hide">Inscreva-se</a>
-        <a href="" class="btn btn-text hide">Saiba mais</a>
-      </div>
   </div>
 </div>
 
-<br>
-<br>
 
-<div class="container" style="background-color: white; padding: 3vh; max-width: 95%; border-radius: 3px; margin-top: -10vh;  z-index: 10; opacity: 1; position:relative;">
+<div style="background-color: white; padding: 3vh; border-radius: 3px; margin-top: 0vh;  z-index: 10; opacity: 1; position:relative;">
 
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-4">
@@ -127,8 +122,184 @@ font-weight: bold;
 </div>
 
 
+
+
+<!-- SESSAO CURSOS ***************** -->
+<div style="background-color: black; padding: 3vh; z-index: 10; position:relative; color: gray;">
+  <h2 style="color: gray;">Cursos preparatórios:</h2>
+  <br>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6">
+      <center>
+        <div style="margin-bottom: 3vh;">
+          <%= image_tag "99CV.png", class: 'img-responsive center-block fit-image-courses', alt: "Curso preparatório para entrevista 99CV" %> <br>
+          <p style="font-size: 2vh;">Curso 100% focado no desenvolvimento o currículo do candidato, a porta de entrada em todo processo seletivo para vagas de estágio, trainee ou trabalho</p>
+          <a href="" class="btn btn-text" style="margin-top: -0.3vh;">Saiba mais</a>
+        </div>
+      </center>
+    </div>
+
+    <div class="col-xs-12 col-sm-6">
+      <center>
+        <div style="margin-bottom: 3vh;">
+          <%= image_tag "AE2.png", class: 'img-responsive center-block fit-image-courses', alt: "Curso preparatório para entrevista 99CV" %> <br>
+          <p style="font-size: 2vh;">Curso 100% focado no desenvolvimento o currículo do candidato, a porta de entrada em todo processo seletivo para vagas de estágio, trainee ou trabalho</p>
+          <a href="" class="btn btn-text" style="margin-top: -0.3vh;">Saiba mais</a>
+        </div>
+      </center>
+    </div>
+  </div>
+</div>
+<!-- SESSAO CURSOS ***************** -->
+
+
+
 <br>
 <br>
+
+
+
+
+<!-- CARROUSEL COM DEPOIMENTOS ***************** -->
+<div class="container">
+  <h3 style="color: gray;">O que estão falando da Entrevista Descomplicada</h3>
+    <div class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-sm" style=" border: 1px solid black; margin: 5px;">
+                      <br>
+                        <div style="display: flex; align-items: start; justify-content: space-between;">
+                          <div style="padding: 5px;">
+                            <img class="card-img" style="border-radius: 50%; width: 20vw; max-width: 100px;" src="https://images.pexels.com/photos/821652/pexels-photo-821652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Card image cap">
+                          </div>
+                          <div style="padding: 5px;">
+                            <h4>Joana Siqueira</h4>
+                            <h4><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star"></i></h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm" style=" border: 1px solid black; margin: 5px;">
+                      <br>
+                        <div style="display: flex; align-items: start; justify-content: space-between;">
+                          <div style="padding: 5px;">
+                            <img class="card-img" style="border-radius: 50%; width: 20vw; max-width: 100px;" src="https://images.pexels.com/photos/821652/pexels-photo-821652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Card image cap">
+                          </div>
+                          <div style="padding: 5px;">
+                            <h4>Joana Siqueira</h4>
+                            <h4><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star"></i></h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm" style=" border: 1px solid black; margin: 5px;">
+                      <br>
+                        <div style="display: flex; align-items: start; justify-content: space-between;">
+                          <div style="padding: 5px;">
+                            <img class="card-img" style="border-radius: 50%; width: 20vw; max-width: 100px;" src="https://images.pexels.com/photos/821652/pexels-photo-821652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Card image cap">
+                          </div>
+                          <div style="padding: 5px;">
+                            <h4>Joana Siqueira</h4>
+                            <h4><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star"></i></h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-sm" style=" border: 1px solid black; margin: 5px;">
+                      <br>
+                        <div style="display: flex; align-items: start; justify-content: space-between;">
+                          <div style="padding: 5px;">
+                            <img class="card-img" style="border-radius: 50%; width: 20vw; max-width: 100px;" src="https://images.pexels.com/photos/821652/pexels-photo-821652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Card image cap">
+                          </div>
+                          <div style="padding: 5px;">
+                            <h4>Joana Siqueira</h4>
+                            <h4><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star"></i></h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm" style=" border: 1px solid black; margin: 5px;">
+                      <br>
+                        <div style="display: flex; align-items: start; justify-content: space-between;">
+                          <div style="padding: 5px;">
+                            <img class="card-img" style="border-radius: 50%; width: 20vw; max-width: 100px;" src="https://images.pexels.com/photos/821652/pexels-photo-821652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Card image cap">
+                          </div>
+                          <div style="padding: 5px;">
+                            <h4>Joana Siqueira</h4>
+                            <h4><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star"></i></h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm" style=" border: 1px solid black; margin: 5px;">
+                      <br>
+                        <div style="display: flex; align-items: start; justify-content: space-between;">
+                          <div style="padding: 5px;">
+                            <img class="card-img" style="border-radius: 50%; width: 20vw; max-width: 100px;" src="https://images.pexels.com/photos/821652/pexels-photo-821652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Card image cap">
+                          </div>
+                          <div style="padding: 5px;">
+                            <h4>Joana Siqueira</h4>
+                            <h4><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star" style="color: #FBC117;"></i><i class="fas fa-star"></i></h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<!-- CARROUSEL COM DEPOIMENTOS ***************** -->
+
+
+
+
+<!-- SESSAO DEPOIMENTOS ***************** -->
+<div style="background-color: white; padding: 3vh; z-index: 10; position:relative; color: gray;">
+  <h2 style="color: gray;">O que estão falando da Entrevista Descomplicada</h2>
+  <br>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6">
+      <center>
+        <div style="margin-bottom: 3vh;">
+          <%= image_tag "99CV.png", class: 'img-responsive center-block fit-image-courses', alt: "Curso preparatório para entrevista 99CV" %> <br>
+          <p style="font-size: 2vh;">Curso 100% focado no desenvolvimento o currículo do candidato, a porta de entrada em todo processo seletivo para vagas de estágio, trainee ou trabalho</p>
+          <a href="" class="btn btn-text" style="margin-top: -0.3vh;">Saiba mais</a>
+        </div>
+      </center>
+    </div>
+
+    <div class="col-xs-12 col-sm-6">
+      <center>
+        <div style="margin-bottom: 3vh;">
+          <%= image_tag "AE2.png", class: 'img-responsive center-block fit-image-courses', alt: "Curso preparatório para entrevista 99CV" %> <br>
+          <p style="font-size: 2vh;">Curso 100% focado no desenvolvimento o currículo do candidato, a porta de entrada em todo processo seletivo para vagas de estágio, trainee ou trabalho</p>
+          <a href="" class="btn btn-text" style="margin-top: -0.3vh;">Saiba mais</a>
+        </div>
+      </center>
+    </div>
+  </div>
+</div>
+<!-- SESSAO CURSOS ***************** -->
+
+
+
+
+
+
+
 
 <div class="container">
   <p style="font-style: italic; font-weight: bold; font-size: 2.5vh;">Últimos posts</p>
@@ -193,6 +364,32 @@ font-weight: bold;
 
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
