@@ -1,0 +1,42 @@
+<!-- QUEM SOMOS NOS ***************** -->
+
+<style>
+  .btn-text {
+  color: white;
+  background-color: #F0386B;
+  margin: 20px;
+  font-size: 2.5vh;
+}
+</style>
+
+<div style="
+background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding: 3vh; z-index: 10; position:relative; color: gray;">
+
+  <div class="container" style="color: white;">
+  <h2>Quem somos nós:</h2>
+  <br>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6">
+      <center>
+        <div style="margin-bottom: 3vh;">
+          <%= image_tag "logofim.png", class: 'img-responsive center-block fit-image', alt: "Entrevista Descomplicada" %> <br>
+        </div>
+      </center>
+    </div>
+
+    <div class="col-xs-12 col-sm-6">
+        <div style="margin: 1vh;">
+          <p style="font-size: 2.5vh;">O projeto <strong>Entrevista Descomplicada</strong> nasceu da insatisfação com os processos de seleção das grandes empresas. Cada vez mais nós (candidatos) estamos mais preparados e ainda assim recebemos um NÃO em entrevistas sem nenhum tipo de explicação. Aqui o candidato vai receber <strong>informações em detalhe sobre como se preparar</strong> e conseguir a tão sonhada vaga de trabalho.</p>
+          <br>
+          <%= link_to sobre_path do %>
+            <center><div href="" class="btn btn-text" style="margin-top: -0.3vh;">Saiba mais</div></center>
+          <% end %>
+        </div>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- QUEM SOMOS NOS ***************** -->

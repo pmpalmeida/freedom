@@ -23,7 +23,7 @@ Rails.application.routes.draw do
 
 
   #cursos
-  get "novenovecv", to: 'pages#novenovecv', as: :"cv99"
+  get "novenovecv", to: 'pages#novenovecv', as: :"novenovecv"
   get "aprovando-em-entrevistas", to: 'pages#aprovando_em_entrevistas', as: :"aprovando-em-entrevistas"
 
 

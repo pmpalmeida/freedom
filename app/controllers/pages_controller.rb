@@ -53,11 +53,11 @@ class PagesController < ApplicationController
 #Cursos
 
   def novenovecv
-    #redirect_to(root_path)
+    redirect_to(inscricoes_encerradas_path)
   end
 
   def aprovando_em_entrevistas
-    #redirect_to(root_path)
+    redirect_to(inscricoes_encerradas_path)
   end
 
 
