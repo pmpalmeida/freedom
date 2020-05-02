@@ -45,6 +45,23 @@ class PagesController < ApplicationController
     #redirect_to(lan_inscricao_path)
   end
 
+  def inscricoes_encerradas
+
+  end
+
+
+#Cursos
+
+  def novenovecv
+    #redirect_to(root_path)
+  end
+
+  def aprovando_em_entrevistas
+    #redirect_to(root_path)
+  end
+
+
+
 
   private
 

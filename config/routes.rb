@@ -19,6 +19,13 @@ Rails.application.routes.draw do
 
   get "sua-ajuda", to: 'pages#sua_ajuda', as: :"sua-ajuda"
 
+  get "inscricoes-encerradas", to: 'pages#inscricoes_encerradas', as: :"inscricoes-encerradas"
+
+
+  #cursos
+  get "novenovecv", to: 'pages#novenovecv', as: :"cv99"
+  get "aprovando-em-entrevistas", to: 'pages#aprovando_em_entrevistas', as: :"aprovando-em-entrevistas"
+
 
 
 #POSTS---------------------------------------------------------------------------------------------
