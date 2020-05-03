@@ -147,7 +147,6 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
 
     <!-- LOOP VAGAS ***************** -->
     <%(0..7).each do |i| %>
-
     <div class="col-xs-12 col-sm-4 col-sm-4 zoom">
       <div style="background: #ee9ca7;  /* fallback for old browsers */
       background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
@@ -166,11 +165,31 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
       </div>
     </div>
     <%end %>
+    <!-- FIM: SESSAO VAGAS ***************** -->
+
+    <div class="col-xs-12 col-sm-4 col-sm-4 zoom">
+      <div style="background: #0f0c29;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      margin: 1vh; border-radius: 3px; color: white;">
+        <div style="padding: 2vh;">
+        <center>
+        <%= image_tag "logofim.png", class: 'img-responsive center-block fit-image-courses img-size-logo-vaga', alt: "Curso preparatório para entrevista 99CV" %> <br>
+          <p style="font-size: 2vh;">... e muito mais vagas exclusivas para membros!</p>
+          <br>
+          <%= link_to novenovecv_path do %>
+            <div class="btn btn-primary btn-sm" style="margin-top: -0.3vh;">Veja como acessar</div>
+          <% end %>
+        </div>
+      </center>
+      </div>
+    </div>
+
   </div>
 </div>
 <br>
 <br>
-<!-- FIM: SESSAO VAGAS ***************** -->
+
 
 </div>
 
