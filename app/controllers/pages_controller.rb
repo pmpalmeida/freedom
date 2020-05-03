@@ -57,6 +57,10 @@ class PagesController < ApplicationController
     @area = ["Tecnologia", "Vendas", "Logística", "Varejo", "Finanças", "Investimentos", "Abastecimento"]
   end
 
+  def inscricoes_para_portal_encerradas
+
+  end
+
 
 #Cursos
 

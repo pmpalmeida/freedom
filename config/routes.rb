@@ -28,6 +28,7 @@ Rails.application.routes.draw do
 
   #portaldevagas
   get "portal-de-vagas", to: 'pages#portal_de_vagas', as: :"portal_de_vagas"
+  get "inscricoes-para-portal-encerradas", to: 'pages#inscricoes_para_portal_encerradas', as: :"inscricoes_para_portal_encerradas"
 
 
 
