@@ -51,7 +51,10 @@ class PagesController < ApplicationController
 
   #PORTAL DE VAGAS
   def portal_de_vagas
-
+    @position = rand(100..1000)
+    @type = ["Trainee", "Analista", "Coordenador", "Gerente", "Estágio"]
+    @local = ["Empresa nacional", "Empresa multinacional"]
+    @area = ["Tecnologia", "Vendas", "Logística", "Varejo", "Finanças", "Investimentos", "Abastecimento"]
   end
 
 

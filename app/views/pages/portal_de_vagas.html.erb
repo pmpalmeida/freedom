@@ -56,7 +56,14 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
   max-height: 200px;
 }
 
+.img-size-logo-vaga {
+  max-height: 80px;
+}
+
 </style>
+
+
+
 
 
 <div class="videoContainer">
@@ -85,39 +92,96 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
   </div>
 </div>
 
-<br>
 
+<!-- SESSAO VAGAS ***************** -->
+<div style="background-color: #F7F7F7; padding: 2vh; position:relative;">
 
+  <div class="container">
+  <h2 style="color: gray;">Últimas vagas:</h2>
+  <br>
 
-<div style="background-color: #F7F7F7; padding: 2vh; margin-top: -20px;">
-  <div class="container" style="z-index: 1;">
-    <center>
-      <br>
-      <br>
-      <p style="font-size: 4vh;">Conhece alguém que também gostaria de receber dicas de entrevista de emprego? Fique à vontade para compartilhar a página!</p>
-    <div>
-      <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter link-style-obrigado hide"></i></a>
-      <a href="https://www.facebook.com/entrevistadescomplicada/"><i class="fab fa-facebook-square link-style-obrigado"></i></a>
-      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram link-style-obrigado"></i></a>
-      <a href="https://www.youtube.com/channel/UCsAuZS9eplm4ykzSYwpHeDw" target="_blank"><i class="fab fa-youtube link-style-obrigado"></i></a>
+  <div class="row">
+
+    <div class="col-xs-12 col-sm-4 col-sm-4 zoom">
+      <div style="background-color: white; margin: 1vh; border-radius: 3px;">
+        <div style="padding: 2vh;">
+        <center>
+        <%= image_tag "99CV.png", class: 'img-responsive center-block fit-image-courses img-size-logo-vaga', alt: "Curso preparatório para entrevista 99CV" %> <br>
+          <p style="font-size: 2vh;">Estágio em MPS Supply Chain- MSD (CAMPINAS/SP)</p>
+          <%= link_to novenovecv_path do %>
+            <div class="btn btn-danger btn-sm" style="margin-top: -0.3vh;">Detalhes</div>
+          <% end %>
+        </div>
+      </center>
+      </div>
     </div>
-    </center>
-    <br>
-    <br>
+
+    <div class="col-xs-12 col-sm-4 col-sm-4 zoom">
+      <div style="background-color: white; margin: 1vh; border-radius: 3px;">
+        <div style="padding: 2vh;">
+        <center>
+        <%= image_tag "99CV.png", class: 'img-responsive center-block fit-image-courses img-size-logo-vaga', alt: "Curso preparatório para entrevista 99CV" %> <br>
+          <p style="font-size: 2vh;">Estágio em MPS Supply Chain- MSD (CAMPINAS/SP)</p>
+          <%= link_to novenovecv_path do %>
+            <div class="btn btn-danger btn-sm" style="margin-top: -0.3vh;">Detalhes</div>
+          <% end %>
+        </div>
+      </center>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-4 col-sm-4 zoom">
+      <div style="background-color: white; margin: 1vh; border-radius: 3px;">
+        <div style="padding: 2vh;">
+        <center>
+        <%= image_tag "99CV.png", class: 'img-responsive center-block fit-image-courses img-size-logo-vaga', alt: "Curso preparatório para entrevista 99CV" %> <br>
+          <p style="font-size: 2vh;">Estágio em MPS Supply Chain- MSD (CAMPINAS/SP)</p>
+          <%= link_to novenovecv_path do %>
+            <div class="btn btn-danger btn-sm" style="margin-top: -0.3vh;">Detalhes</div>
+          <% end %>
+        </div>
+      </center>
+      </div>
+    </div>
+
+
+    <!-- LOOP VAGAS ***************** -->
+    <%(0..7).each do |i| %>
+
+    <div class="col-xs-12 col-sm-4 col-sm-4 zoom">
+      <div style="background: #ee9ca7;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      margin: 1vh; border-radius: 3px;">
+        <div style="padding: 2vh;">
+        <center>
+        <%= image_tag "vagaassinates.png", class: 'img-responsive center-block fit-image-courses img-size-logo-vaga', alt: "Curso preparatório para entrevista 99CV" %> <br>
+          <p style="font-size: 2vh; margin-bottom: 0vh;"> <strong> Vaga <%= rand(100..1000) %> - <%= @type.sample %> </strong> </p>
+          <p style="font-size: 2vh;"><%= @local.sample %> - Área: <%= @area.sample%></p>
+          <%= link_to novenovecv_path do %>
+            <div class="btn btn-primary btn-sm" style="margin-top: -0.3vh;">Detalhes</div>
+          <% end %>
+        </div>
+      </center>
+      </div>
+    </div>
+    <%end %>
   </div>
+</div>
+<br>
+<br>
+<!-- FIM: SESSAO VAGAS ***************** -->
+
+
+
+
+
+
 
 </div>
 
 
 
-
-<%= render 'shared/depoimentos' %>
-
-<%= render 'shared/quemsomos' %>
-
-
-
-</div>
 
 
 
