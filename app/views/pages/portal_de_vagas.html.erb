@@ -74,6 +74,7 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
     <br>
     <%= image_tag "logofim.png", class: 'img-responsive center-block fit-image img-size-logo' , alt: "Entrevista Descomplicada" %>
     <h1 style="color: white;">Portal de vagas</h1>
+    <p style="font-size: 2.5vh; color: white;">Encontre as melhores vagas nas maiores empresas do Brasil e do mundo.</p>
     <br>
 
 <!-- SEARCH FIELD ********************* -->
@@ -157,7 +158,7 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
         <%= image_tag "vagaassinates.png", class: 'img-responsive center-block fit-image-courses img-size-logo-vaga', alt: "Curso preparatório para entrevista 99CV" %> <br>
           <p style="font-size: 2vh; margin-bottom: 0vh;"> <strong> Vaga <%= rand(100..1000) %> - <%= @type.sample %> </strong> </p>
           <p style="font-size: 2vh;"><%= @local.sample %> - Área: <%= @area.sample%></p>
-          <%= link_to novenovecv_path do %>
+          <%= link_to inscricoes_para_portal_encerradas_path do %>
             <div class="btn btn-primary btn-sm" style="margin-top: -0.3vh;">Detalhes</div>
           <% end %>
         </div>
@@ -177,7 +178,7 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
         <%= image_tag "logofim.png", class: 'img-responsive center-block fit-image-courses img-size-logo-vaga', alt: "Curso preparatório para entrevista 99CV" %> <br>
           <p style="font-size: 2vh;">... e muito mais vagas exclusivas para membros!</p>
           <br>
-          <%= link_to novenovecv_path do %>
+          <%= link_to inscricoes_para_portal_encerradas_path do %>
             <div class="btn btn-primary btn-sm" style="margin-top: -0.3vh;">Veja como acessar</div>
           <% end %>
         </div>
@@ -213,7 +214,7 @@ padding: 3vh; z-index: 10; position:relative; color: gray;">
   <div class="container" style="color: white;">
   <center><h2>Gostaria de acessar vagas de trabalho exclusivas no nosso portal?</h2></center>
   <br>
-  <%= link_to sobre_path do %>
+  <%= link_to inscricoes_para_portal_encerradas_path do %>
     <center><div href="" class="btn btn-text" style="margin-top: -0.3vh;">Saiba mais</div></center>
   <% end %>
   <br>
