@@ -49,6 +49,11 @@ class PagesController < ApplicationController
 
   end
 
+  #PORTAL DE VAGAS
+  def portal_de_vagas
+
+  end
+
 
 #Cursos
 
