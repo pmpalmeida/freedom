@@ -44,6 +44,15 @@ Rails.application.routes.draw do
   get "bla-bla5", to: 'blog#post4', as: :"bla-bla5" #POST 4
 
 
+#VAGAS---------------------------------------------------------------------------------------------
+
+  get "vaga-598", to: 'vagas#vaga0', as: :"vaga1"  #vaga100 - 0
+  get "vaga-333", to: 'vagas#vaga1', as: :"vaga2"  #vaga100 - 1
+  get "vaga-294", to: 'vagas#vaga2', as: :"vaga3"  #vaga100 - 2
+  get "vaga-128", to: 'vagas#vaga3', as: :"vaga4"  #vaga100 - 3
+  get "vaga-403", to: 'vagas#vaga4', as: :"vaga5"  #vaga100 - 4
+  get "vaga-733", to: 'vagas#vaga5', as: :"vaga6"  #vaga100 - 5
+
 
 
 

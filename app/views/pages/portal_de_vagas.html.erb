@@ -107,9 +107,9 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
       <div style="background-color: white; margin: 1vh; border-radius: 3px;">
         <div style="padding: 2vh;">
         <center>
-        <%= image_tag "99CV.png", class: 'img-responsive center-block fit-image-courses img-size-logo-vaga', alt: "Curso preparatório para entrevista 99CV" %> <br>
-          <p style="font-size: 2vh;">Estágio em MPS Supply Chain- MSD (CAMPINAS/SP)</p>
-          <%= link_to novenovecv_path do %>
+        <%= image_tag @vaga1["logo"], class: 'img-responsive center-block fit-image-courses img-size-logo-vaga', alt: "Curso preparatório para entrevista 99CV" %> <br>
+          <p style="font-size: 2vh;"><%=@vaga1["titulo"]%></p>
+          <%= link_to vaga1_path do %>
             <div class="btn btn-danger btn-sm" style="margin-top: -0.3vh;">Detalhes</div>
           <% end %>
         </div>
@@ -121,9 +121,9 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
       <div style="background-color: white; margin: 1vh; border-radius: 3px;">
         <div style="padding: 2vh;">
         <center>
-        <%= image_tag "99CV.png", class: 'img-responsive center-block fit-image-courses img-size-logo-vaga', alt: "Curso preparatório para entrevista 99CV" %> <br>
-          <p style="font-size: 2vh;">Estágio em MPS Supply Chain- MSD (CAMPINAS/SP)</p>
-          <%= link_to novenovecv_path do %>
+        <%= image_tag @vaga2["logo"], class: 'img-responsive center-block fit-image-courses img-size-logo-vaga', alt: "Curso preparatório para entrevista 99CV" %> <br>
+          <p style="font-size: 2vh;"><%=@vaga2["titulo"]%></p>
+          <%= link_to vaga2_path do %>
             <div class="btn btn-danger btn-sm" style="margin-top: -0.3vh;">Detalhes</div>
           <% end %>
         </div>
@@ -135,9 +135,9 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
       <div style="background-color: white; margin: 1vh; border-radius: 3px;">
         <div style="padding: 2vh;">
         <center>
-        <%= image_tag "99CV.png", class: 'img-responsive center-block fit-image-courses img-size-logo-vaga', alt: "Curso preparatório para entrevista 99CV" %> <br>
-          <p style="font-size: 2vh;">Estágio em MPS Supply Chain- MSD (CAMPINAS/SP)</p>
-          <%= link_to novenovecv_path do %>
+        <%= image_tag @vaga3["logo"], class: 'img-responsive center-block fit-image-courses img-size-logo-vaga', alt: "Curso preparatório para entrevista 99CV" %> <br>
+          <p style="font-size: 2vh;"><%=@vaga3["titulo"]%></p>
+          <%= link_to vaga3_path do %>
             <div class="btn btn-danger btn-sm" style="margin-top: -0.3vh;">Detalhes</div>
           <% end %>
         </div>
