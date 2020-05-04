@@ -80,7 +80,7 @@ max-width: 800px;
     <p><%= @vaga["empresa"] %></p>
 
     <h2 style="font-size: 3vh;">Tipo da vaga:</h2>
-    <p>Trainee</p>
+    <p><%= @vaga["tipo"] %></p>
 
     <h2 style="font-size: 3vh;">Título da vaga:</h2>
     <p><%= @vaga["titulo"] %></p>
@@ -95,6 +95,14 @@ max-width: 800px;
     <h2 style="font-size: 3vh;">Informações para inscrição</h2>
     <p>Inscrição através do site:</p>
     <p><%= @vaga["site"] %></p>
+    <br>
+
+    <%= link_to @vaga["site"] do %>
+      <div class="btn btn-danger btn-block" style="margin-top: -0.3vh;">Fazer inscrição</div>
+    <% end %>
+
+    <br>
+    <br>
     <br>
 
 
