@@ -3,14 +3,10 @@
 
 
 <style>
-/* Play with this value */
-@import url('https://fonts.googleapis.com/css?family=Barriecito&display=swap');
-
 .videoContainer {
-
-  background: #373B44;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   width: 100%;
   height: 70vh;
@@ -26,7 +22,6 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
 }
 
 .title-text {
-  font-family: 'Barriecito', cursive;
   color: white;
   font-size: 6vh;
   padding: 0.5vh;
@@ -59,9 +54,9 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
 
   <div style="position: relative; margin-top: -65vh;">
     <div class="container">
-    <%= image_tag "logo.png", height: 100, alt: "Entrevista Descomplicada" %> <br>
-    <h1 class="title-text">ENTREVISTA DESCOMPLICADA</h1>
-    <p class="" style="font-size: 2.2vh; margin-left: 0.2vh; margin-right: 0.2vh; color: white;">O projeto Entrevista Descomplicada nasceu da insatisfação com os processos de seleção das grandes empresas. Cada vez mais nós (candidatos) estamos mais preparados e ainda assim recebemos um NÃO em entrevistas sem nenhum tipo de explicação. Aqui o candidato vai receber informações em detalhe sobre como se preparar e conseguir a tão sonhada vaga de trabalho.</p>
+    <%= image_tag "logofim.png", height: 120, alt: "Entrevista Descomplicada" %> <br>
+    <h1 class="" style="font-size: 2.5vh; margin: 2vh; color: white; line-height: 17pt">O projeto Entrevista Descomplicada nasceu da insatisfação com os processos de seleção das grandes empresas. Cada vez mais nós (candidatos) estamos mais preparados e ainda assim recebemos um NÃO em entrevistas sem nenhum tipo de explicação. Aqui o candidato vai receber informações em detalhe sobre como se preparar e conseguir a tão sonhada vaga de trabalho.</h1>
+    <p class="" style="font-size: 2vh; color: white;">Zé Ricardo | Co-fundador da Entrevista Descomplicada </p>
     </div>
     <br>
     <br>
@@ -72,48 +67,22 @@ background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, F
 
 <br>
 
-
-
 <div style="background-color: #F7F7F7; padding: 2vh; margin-top: -20px;">
+  <br>
   <div class="container" style="z-index: 1;">
   <br>
-
   <center>
-    <p style="font-size: 3vh;">Venha também fazer parte dessa comunidade que cresce dia após dia:</p>
-
-    <!-- Begin Mailchimp Signup Form -->
-<center>
-    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-      #mc_embed_signup{font:14px Helvetica,Arial,sans-serif; width:90%; max-width:600px; opacity: 100%;}
-  /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-    </style>
-
-    <div id="mc_embed_signup" style="background-color: transparent;">
-
-      <form action="https://gmail.us3.list-manage.com/subscribe/post?u=a0af30e40c118dd4db6006b86&amp;id=8133a06308" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <center>
-        <div id="mc_embed_signup_scroll">
-        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Digite seu email" required>
-        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a0af30e40c118dd4db6006b86_8133a06308" tabindex="-1" value=""></div>
-          <div class="clear"><input type="submit" value="Inscreva-se" name="subscribe" id="mc-embedded-subscribe" class="btn btn-danger" style="background-color: #F0386B;"></div>
-        </div>
-      </center>
-      </form>
-    </div>
-
-<p style="margin-top: 0px; color: black; font-size: 2vh;">Receba dicas de entrevista toda semana por email</p>
-</center>
-<!-- END Mailchimp Signup Form -->
+    <p style="font-size: 3vh;">Venha também fazer parte dessa comunidade que cresce dia após dia</p>
+    <p style="font-size: 2vh;">Inscreva-se 100% grátis e receba por email um modelo de currículo para editar na sua próxima entrevista</p>
+    <script async data-uid="618a01e509" src="https://crafty-architect-8610.ck.page/618a01e509/index.js"></script>
   </center>
 
   </div>
-
-<br>
-<br>
+  <br>
+  <br>
 </div>
+
+<%= render 'shared/depoimentos'%>
 
 </div>
 

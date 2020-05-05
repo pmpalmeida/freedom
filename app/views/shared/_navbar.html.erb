@@ -133,7 +133,7 @@ color: gray;
   <!-- Logo -->
 
   <%= link_to root_path, class: "navbar-wagon-brand" do %>
-    <%= image_tag "logo.png", height: 30 %>
+    <%= image_tag "logofim.png", height: 30 %>
   <% end %>
 
   <!-- Right Navigation -->
@@ -148,6 +148,7 @@ color: gray;
     <a href="https://www.linkedin.com/company/entrevista-descomplicada" target="_blank"><i class="fab fa-linkedin icon-style-navbar"></i></a>
     <%= link_to "Blog", root_path, class: "navbar-wagon-item-cidade navbar-wagon-link hide" %>
     <%= link_to "Vídeos", root_path, class: "navbar-wagon-item-cidade navbar-wagon-link hide" %>
+    <%= link_to "Portal de vagas", portal_de_vagas_path, class: "navbar-wagon-item-cidade navbar-wagon-link" %>
     <%= link_to "Recursos", curriculo_campeao_path, class: "navbar-wagon-item-cidade navbar-wagon-link" %>
     <%= link_to "Contato", root_path, class: "navbar-wagon-item-cidade navbar-wagon-link hide" %>
     <%= link_to "Sobre", sobre_path, class: "navbar-wagon-item-cidade navbar-wagon-link" %>
@@ -174,6 +175,11 @@ color: gray;
               <% end %>
             </li>
             <li>
+              <%= link_to portal_de_vagas_path do %>
+                <i class="fa fa-bullhorn"></i>  <%= t(".settings", default: "Portal de vagas") %>
+              <% end %>
+            </li>
+            <li>
               <%= link_to curriculo_campeao_path do %>
                 <i class="fa fa-bullhorn"></i>  <%= t(".settings", default: "Recursos") %>
               <% end %>
@@ -188,8 +194,6 @@ color: gray;
                 <i class="fa fa-cog"></i>  <%= t(".settings", default: "Sobre") %>
               <% end %>
             </li>
-            <br>
-            <center><p style="color: #6E6E6E;">MIDIAS SOCIAIS</p></center>
             <li>
               <%= link_to "https://www.youtube.com/channel/UCsAuZS9eplm4ykzSYwpHeDw" do %>
                 <i class="fab fa-youtube"></i>  <%= t(".settings", default: "YouTube") %>
