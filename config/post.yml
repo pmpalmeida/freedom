@@ -30,7 +30,6 @@ post0:
   "
 #------------------------------------------------------- END POST -----------------------------------------------------------------------
 
-
 post1:
  date: "17 Julho 2019"
  title: "Como identificar pontos de melhoria em processos seletivos?"
@@ -136,3 +135,23 @@ ultimo:
 
   "
 #------------------------------------------------------- END POST -----------------------------------------------------------------------
+
+post7:
+ date: "29 Outubro 2019"
+ title: "A primeira entrevista de emprego"
+ description: "Como foi minha primeira entrevista de emprego?"
+ link: "/como-foi-minha-primeira-entrevista-de-emprego.html"
+ category: "Entrevista"
+ photo: "https://images.pexels.com/photos/3799787/pexels-photo-3799787.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+ video: "https://www.youtube.com/embed/qT1BbQ7SWhM"
+ text:
+  "
+
+  <p> A primeira entrevista você nunca esquece... Daí nasceu a ideia para a Entrevista Descomplicada :) </p>
+
+
+  "
+#------------------------------------------------------- END POST -----------------------------------------------------------------------
+
+
+

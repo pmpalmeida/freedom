@@ -41,7 +41,7 @@ Rails.application.routes.draw do
   get "como-falar-sobre-qualidades-e-defeitos-em-uma-entrevista-de-trabalho", to: 'blog#post4', as: :"como-falar-sobre-qualidades-e-defeitos-em-uma-entrevista-de-trabalho" #POST 4
   get "como-escrever-seu-curriculo-sem-ter-experiencias-profissionais", to: 'blog#post5', as: :"como-escrever-seu-curriculo-sem-ter-experiencias-profissionais" #POST 5
   get "como-lidar-com-exigencias-absurdas-de-entrevistas-de-emprego", to: 'blog#post6', as: :"como-lidar-com-exigencias-absurdas-de-entrevistas-de-emprego" #POST 6
-  get "bla-bla5", to: 'blog#post4', as: :"bla-bla5" #POST 4
+  get "como-foi-minha-primeira-entrevista-de-emprego", to: 'blog#post7', as: :"como-foi-minha-primeira-entrevista-de-emprego" #POST 7
 
 
 #VAGAS---------------------------------------------------------------------------------------------
