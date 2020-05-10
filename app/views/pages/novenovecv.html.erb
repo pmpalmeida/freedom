@@ -24,22 +24,28 @@ background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, F
 }
 
 .title-text {
-  color: white;
-  font-size: 6vh;
-
-  padding: 0.5vh;
-  border-radius: 3px;
-  display:inline-block;
-  padding-left: 1.5vh;
-  padding-right: 1.5vh;
-
+font-size: 3vh;
+margin: 0.2vh;
+margin-top: 2vh;
+color: white;
+line-height: 1.2;
+font-weight: 320;
 }
 
 .btn-text-curso {
   color: white;
-  background-color: #F0386B;
   margin: 1vh;
-  font-size: 2.0vh;
+  max-width: 95vw;
+  font-weight: 500;
+  font-size: 1.8vh;
+}
+
+.btn-title-style {
+  color: white;
+  background-color:transparent;
+  border-color: white;
+  max-width: 95vw;
+  font-weight: 500;
 }
 
 .zoom:hover {
@@ -75,17 +81,17 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
   <div style="position: relative; margin-top: -55vh;">
     <div class="container">
       <%= image_tag "99CV.png", class: 'img-responsive center-block fit-image', alt: "Entrevista Descomplicada - Curso 99CV" %>
-      <h1 class="" style="font-size: 3vh; margin: 0.2vh; margin-top: 2vh; color: white; line-height: 1.2; font-weight: 320;">Seja chamado(a) pra entrevistas de emprego com um currículo campeão</h1>
+      <h1 class="title-text">Seja chamado(a) pra entrevistas de emprego com um currículo campeão</h1>
       <br>
 
       <p style="margin-top: 0vh; font-weight: 300; color: #b8c1c8;"><i class="fas fa-user-friends"></i> 37 novos inscritos</p>
-      <hr style="margin-top: -1vh;">
+      <hr style="margin-top: -1vh; max-width: 600px;">
       <h2 style="font-size: 2vh; margin: 0.2vh; color: white; margin-top: -1.5vh; font-weight: 300; color: #b8c1c8;">Por Zé Ricardo - Co-fundador da Entrevista Descomplicada</h2>
       <br>
       <%= link_to novenovecv_path do %>
-        <div class="btn btn-light" style="color: white; background-color:transparent; border-color: white; max-width: 95vw; font-weight: 500;">QUERO SER CHAMADO(A) PARA ENTREVISTAS</div>
+        <div class="btn btn-light btn-title-style" style="">QUERO SER CHAMADO(A) PARA ENTREVISTAS</div>
+        <p style="color: white; margin-top: 1vh;">Link para inscrição</p>
       <% end %>
-
 
     </div>
   </div>
@@ -108,8 +114,11 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
   <div style="background-color: white; border-radius: 3px; margin: 1vw; max-width: 500px;">
     <p style="padding-top: 1vh;">Em até 6X de R$10.99</p>
     <%= link_to novenovecv_path do %>
-      <div class="btn btn-text-curso" style="">Quero me destacar da competição</div>
+      <div class="btn btn-danger btn-text-curso">QUERO ME DESTACAR DA COMPETIÇÃO</div>
+      <p style="color: black;">Link para inscrição</p>
     <% end %>
+  <br>
+  <br>
   </div>
 
 <br>
