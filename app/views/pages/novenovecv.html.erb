@@ -1,1 +1,99 @@
-<p>teste</p>
+<style>
+
+
+.videoContainer {
+
+background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  width: 100%;
+  height: 55vh;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 0px;
+}
+
+#videoTrailer {
+  min-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+
+.title-text {
+  color: white;
+  font-size: 6vh;
+
+  padding: 0.5vh;
+  border-radius: 3px;
+  display:inline-block;
+  padding-left: 1.5vh;
+  padding-right: 1.5vh;
+
+}
+
+.btn-text {
+  color: white;
+  background-color: #F0386B;
+  margin: 20px;
+  font-size: 2.5vh;
+}
+
+.zoom:hover {
+  transform: scale(1.02);
+}
+
+
+.icon-font-home {
+color: black;
+font-weight: bold;
+margin-top: 2vh;
+font-size: 4vh;
+font-weight: bold;
+}
+
+.fit-image{
+  height: 20vh;
+  border-radius: 3px;
+}
+</style>
+
+
+<div style="background-color: #F7F7F7;">
+
+<div class="videoContainer">
+  <img id="videoTrailer" style="object-fit: cover; height: 60vh; opacity: 0.08;" src="/assets/cvcampeao.png" alt="sobre/about">
+  <div style="position: relative; margin-top: -50vh;">
+    <div class="container">
+      <%= image_tag "99CV.png", class: 'img-responsive center-block fit-image', alt: "Entrevista Descomplicada - Curso 99CV" %>
+
+      <h2 style="font-size: 2vh; margin: 0.2vh; color: white; margin-top: 1.5vh; font-weight: 300;">Por Zé Ricardo - Co-fundador da Entrevista Descomplicada</h2>
+      <br>
+      <br>
+      <h1 class="" style="font-size: 3vh; margin: 0.2vh; margin-top: -2vh; color: white; line-height: 1.2; font-weight: 300;">Seja chamado(a) pra entrevistas de emprego com um currículo campeão</h1>
+      <br>
+      <%= link_to novenovecv_path do %>
+        <div class="btn btn-light" style="color: white; background-color:transparent; font-size: 1.5vh; border-color: white; max-width: 90vw; font-weight: 500;">QUERO SER CHAMADO(A) PARA ENTREVISTAS</div>
+      <% end %>
+
+
+    </div>
+  </div>
+</div>
+
+
+<div>
+
+      <%= link_to novenovecv_path do %>
+        <div class="btn btn-text" style=""> entrevistas</div>
+      <% end %>
+
+</div>
+
+
+<%= render 'shared/depoimentos' %>
+
+<%= render 'shared/quemsomos' %>
+
+</div>
