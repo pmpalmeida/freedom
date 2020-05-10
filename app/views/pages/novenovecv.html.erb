@@ -3,9 +3,11 @@
 
 .videoContainer {
 
-background: #141E30;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #4b6cb7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 
 
   width: 100%;
@@ -33,11 +35,11 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 
 }
 
-.btn-text {
+.btn-text-curso {
   color: white;
   background-color: #F0386B;
-  margin: 20px;
-  font-size: 2.5vh;
+  margin: 1vh;
+  font-size: 2.0vh;
 }
 
 .zoom:hover {
@@ -45,17 +47,23 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 }
 
 
-.icon-font-home {
-color: black;
-font-weight: bold;
-margin-top: 2vh;
-font-size: 4vh;
-font-weight: bold;
-}
 
 .fit-image{
   height: 20vh;
   border-radius: 3px;
+}
+
+.background-curso {
+background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding: 3vh; z-index: 10; position:relative; color: gray;">
+}
+
+.background-curso2 {
+background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 </style>
 
@@ -63,7 +71,7 @@ font-weight: bold;
 <div style="background-color: #F7F7F7;">
 
 <div class="videoContainer">
-  <img id="videoTrailer" style="object-fit: cover; height: 60vh; opacity: 0.08;" src="/assets/cvcampeao.png" alt="sobre/about">
+  <img id="videoTrailer" style="object-fit: cover; height: 60vh; opacity: 0.8;" src="/assets/background2.gif" alt="sobre/about">
   <div style="position: relative; margin-top: -55vh;">
     <div class="container">
       <%= image_tag "99CV.png", class: 'img-responsive center-block fit-image', alt: "Entrevista Descomplicada - Curso 99CV" %>
@@ -84,24 +92,29 @@ font-weight: bold;
 </div>
 
 
-<div class="container" style="background-color: black;">
+<div class="background-curso">
+<div class="container">
 <center>
-  <p>O currículo é a porta de entrada para qualquer processo seletivo. Aprenda a escrever seu cussículo de forma a se destacar dos demais e ser selecionado para entrevista.</p>
-  <br>
+  <h3 style="font-weight: 300; color: #b8c1c8; line-height: 1.2;">O currículo é a porta de entrada para qualquer processo seletivo. Aprenda a escrever seu currículo de forma a se destacar dos demais e ser selecionado para entrevista.</h3>
 
-  <div style="background-color: white; border-radius: 3px; margin: 5vw; max-width: 500px;">
+  <!-- DATA-->
+  <div style="color: white;">
+  <hr style="color:white; max-width: 400px;">
+  <i class="fas fa-calendar-alt" style="font-size: 2vh;"> <p style="padding: 1vh; font-family: 'Arial', cursive; ">Início Imediato</p></i> &nbsp; &nbsp; &nbsp;
+  <i class="fas fa-laptop-code" style="font-size: 2vh;"> <p style="padding: 1vh; font-family: 'Arial', cursive; ">100% online</p></i>
+  </div>
+  <!-- DATA END-->
 
-      <%= link_to novenovecv_path do %>
-        <br>
-        EM ATÉ 6X
-        <br>
-        <div class="btn btn-text" style="">Fazer inscrição</div>
-        <br>
-      <% end %>
-
+  <div style="background-color: white; border-radius: 3px; margin: 1vw; max-width: 500px;">
+    <p style="padding-top: 1vh;">Em até 6X de R$10.99</p>
+    <%= link_to novenovecv_path do %>
+      <div class="btn btn-text-curso" style="">Quero me destacar da competição</div>
+    <% end %>
   </div>
 
+<br>
 </center>
+</div>
 </div>
 
 
