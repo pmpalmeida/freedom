@@ -60,12 +60,18 @@ font-weight: 320;
   border-radius: 3px;
 }
 
+.fit-image-garantia{
+  height: 40vh;
+  border-radius: 3px;
+}
+
 .background-curso {
 background: #0f0c29;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 padding: 3vh; z-index: 10; position:relative; color: gray;">
 }
+
 
 .background-curso2 {
 background: #141E30;  /* fallback for old browsers */
@@ -77,10 +83,15 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
   border-color: blue;
   border-radius: 3px;
   border-width: thick;
-  background-color: black;
-  padding: 1vh;
+  background-color: #3498DB;
+  padding: 1.5vh;
 }
 
+.center {
+  margin: auto;
+  width: 80%;
+
+}
 </style>
 
 
@@ -155,47 +166,52 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 
     <div class="col-xs-12 col-sm-6 col-md-4">
       <center>
-        <div>
-          <h2 style="font-size: 4vh;"><i class="fas fa-piggy-bank" style=""></i> Revisão de Currículo</h2>
+        <div style="padding: 2vh;">
+          <h2 style="font-size: 4vh;"><i class="fas fa-search"></i> Revisão de Currículo</h2>
           <p>O time de especialistas da Entrevista Descomplicada vai <strong>revisar o seu currículo</strong> de forma a fazer ele se destacar da multidão.</p>
           <div style="">
             <%= image_tag "cvcampeao.png", class: 'img-responsive center-block fit-image img-selection', alt: "Entrevista Descomplicada - Curso 99CV" %>
           </div>
-          <br>
+
         </div>
       </center>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="col-xs-12 col-sm-6 col-md-4">
       <center>
-        <div>
-          <h2 style="font-size: 4vh;"><i class="fas fa-piggy-bank" style=""></i> Plantão de dúvidas</h2>
+        <div style="padding: 2vh;">
+          <h2 style="font-size: 4vh;"><i class="far fa-question-circle"></i></i> Plantão de dúvidas</h2>
           <p>Plantões online pra discutir as <strong>dúvidas</strong> da turma e trocar experiências.</p>
           <div style="">
             <%= image_tag "cvcampeao.png", class: 'img-responsive center-block fit-image img-selection', alt: "Entrevista Descomplicada - Curso 99CV" %>
           </div>
-          <br>
+
         </div>
       </center>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-3">
+    <div class="col-xs-12 col-sm-6 col-md-4">
       <center>
-        <div>
-          <h2 style="font-size: 4vh;"><i class="fas fa-piggy-bank" style=""></i> Conteúdo Exclusivo</h2>
-          <p>Plantões online pra discutir as <strong>dúvidas</strong> da turma e trocar experiências.</p>
+        <div style="padding: 2vh;">
+          <h2 style="font-size: 4vh;"><i class="fas fa-desktop"></i></i> Conteúdo Exclusivo</h2>
+          <p>Conteúdo exclusivo e <strong>100% online</strong> pra você assistir no celular ou computador aonde estiver.</p>
           <div style="">
-            <%= image_tag "cvcampeao.png", class: 'img-responsive center-block fit-image img-selection', alt: "Entrevista Descomplicada - Curso 99CV" %>
+            <%= image_tag "screecapcurso.png", class: 'img-responsive center-block fit-image img-selection', alt: "Entrevista Descomplicada - Curso 99CV" %>
           </div>
-          <br>
+
         </div>
       </center>
     </div>
 
   </div>
-</div>
-</div>
 
+
+
+
+
+</div>
+</div>
+<br>
 </div>
 
 <!--FIM: SEÇÃO BENEFÍCIOS -->
@@ -203,11 +219,59 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 
 <%= render 'shared/depoimentos' %>
 
+
+
 <!-- SEÇÃO DÚVIDAS FREQUENTES-->
+  <div class="background-curso">
 
-<p>teste</p>
+  <div class="center">
+    <h3 style="color: white; font-size: 3vh;">O que você vai aprender:</h3>
+    <ol style=" font-weight: 300; color: #b8c1c8; line-height: 2;">
+      <li>Os 3 pilares de um bom currículo</li>
+        <ul>
+          <li>Entendendo os 3 pilares do currículo</li>
+          <li>Importância da visão 360 do candidato na hora da entrevista</li>
+        </ul>
+      <li>Composição do conteúdo de um bom currículo</li>
+        <ul>
+          <li>Composição do conteúdo do currículo para recém formados</li>
+          <li>Composição do conteúdo do currículo para profissionais com pouca experiência</li>
+          <li>Composição do conteúdo do currículo para profissionais com experiência de trabalho</li>
+          <li>Composição do conteúdo do currículo para pessoas sem experiência profissional</li>
+        </ul>
+      <li>Como escrever itens do currículo de forma organizada para não deixar dúvidas no entrevistador</li>
+        <ul>
+          <li>Método de escrita direta de atividades profissionais</li>
+        </ul>
+      <li>Como fazer seu currículo se destacar da multidão com uma técnica simples de escrita que 99% dos candidatos não utilizam</li>
+      <li>Como escrever experiências fora do contexto de trabalho no currículo profissional</li>
+      <li>Como preencher "espaços vazios" com histórias relevantes</li>
+      <li>Como desenvolver novas experiências profissionais sem "carteira assinada" pra valorizar o currículo</li>
+    </ol>
+  </div>
 
+  </div>
 <!--FIM: SEÇÃO DÚVIDAS FREQUENTES -->
+
+
+<!-- SEÇÃO GARANTIA 30 DIAS-->
+<center>
+  <div class="container">
+    <br>
+    <%= image_tag "garantia.png", class: 'img-responsive center-block fit-image-garantia', alt: "Entrevista Descomplicada - Curso 99CV" %>
+
+    <h3>VOCÊ NÃO TEM NADA À PERDER...</h3>
+    <h4 style="font-weight: 300; color: grey; line-height: 1.2;">Não tem dúvida, o Mamãe Sarada simplesmente funciona. A prova disso são as milhares de alunas com resultados incríveis e que tiveram suas vidas transformadas. Mas se você ainda tem alguma dúvida, vou permitir que você experimente por 30 dias e caso você não goste ou não veja nenhum resultado, basta me enviar um email durante esse período que devolvo todo o valor que você pagou.
+    <br>
+    <br>
+    Ou seja, se der certo, você perde gordura localizada como deseja e recupera a sua autoestima. E se der errado, você tem o seu dinheiro de volta.
+    <br>
+    <br>
+    O único risco que você corre é de estar daqui a 60 dias com o corpo que deseja. Simples assim!</h4>
+    <br>
+  </div>
+</center>
+<!-- FIM SEÇÃO GARANTIA 30 DIAS-->
 
 <%= render 'shared/quemsomos' %>
 
