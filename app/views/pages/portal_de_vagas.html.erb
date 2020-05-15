@@ -4,12 +4,12 @@
 
 <style>
 .videoContainer {
-background: #0F2027;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9a1278, #003fff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9a1278, #003fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   width: 100%;
-  height: 80vh;
+  height: 60vh;
 
   overflow: hidden;
   margin-top: 0px;
@@ -53,7 +53,7 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
 }
 
 .img-size-logo {
-  max-height: 200px;
+  max-height: 120px;
 }
 
 .img-size-logo-vaga {
@@ -67,15 +67,14 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
 
 
 <div class="videoContainer">
-  <img id="videoTrailer" style="object-fit: cover; opacity: 0.1;" src="/assets/business.jpeg" alt="sobre/about">
-  <div style="position: relative; margin-top: -75vh;">
+  <img id="videoTrailer" style="object-fit: cover; height: 60vh;opacity: 1;" src="/assets/background2.gif" alt="sobre/about">
+  <div style="position: relative; margin-top: -60vh;">
     <div class="container">
     <center>
     <br>
     <%= image_tag "logofim.png", class: 'img-responsive center-block fit-image img-size-logo' , alt: "Entrevista Descomplicada" %>
-    <h1 style="color: white;">Portal de vagas</h1>
+    <h1 style="color: white; font-size: 4vh;">Portal de vagas</h1>
     <p style="font-size: 2.5vh; color: white;">Encontre as melhores vagas nas maiores empresas do Brasil e do mundo.</p>
-    <br>
 
 <!-- SEARCH FIELD ********************* -->
 <form class="form-inline">
