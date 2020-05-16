@@ -31,6 +31,9 @@ Rails.application.routes.draw do
   get "portal-de-vagas", to: 'pages#portal_de_vagas', as: :"portal_de_vagas"
   get "inscricoes-para-portal-encerradas", to: 'pages#inscricoes_para_portal_encerradas', as: :"inscricoes_para_portal_encerradas"
 
+  #blog | dicas de entrevista
+  get "dicas-de-entrevista", to: 'pages#dicas_de_entrevista', as: :"dicas-de-entrevista"
+
 
 
 #POSTS---------------------------------------------------------------------------------------------

@@ -9,7 +9,7 @@
   background: linear-gradient(to right, #9a1278, #003fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   width: 100%;
-  height: 70vh;
+  height: 80vh;
 
   overflow: hidden;
   margin-top: 0px;
@@ -20,7 +20,7 @@
   max-height: 100%;
   vertical-align: middle;
   object-fit: cover;
-  height: 70vh;
+  height: 80vh;
   opacity: 1;
 }
 
@@ -101,35 +101,38 @@
 
 <div class="videoContainer">
   <img id="videoTrailer" src="/assets/background2.gif" alt="sobre/about">
-  <div style="position: relative; margin-top: -65vh;">
+  <div style="position: relative; margin-top: -75vh;">
     <div class="container">
       <center>
         <%= image_tag "logofim.png", class: 'img-responsive center-block fit-image img-size-logo' , alt: "Entrevista Descomplicada" %>
-        <h1 class="title-text">Email recebido</h1>
-        <p class="paragraph-text" style="font-size: 2.5vh;">Assim que abrirmos a nova turma dos nossos cursos te avisaremos!! :)
-        <p class="paragraph-text" style="font-size: 1.5vh;">Grande abraço <br> Zé Ricardo | Co-fundador da Entrevista Descomplicada </p>
+        <h1 class="title-text">DICAS DE ENTREVISTA</h1>
+        <p class="paragraph-text" style="font-size: 2.5vh;">Veja aqui algumas das nossas dicas pra te ajudar em processos seletivos para vagas de trabalho!
+        <p class="paragraph-text" style="font-size: 1.5vh;">Grande abraço :) <br> Zé Ricardo | Co-fundador da Entrevista Descomplicada </p>
       </center>
       <br>
 
       <div class="container">
-        <p class="seealso" >Enquanto isso veja também:</p>
+        <p class="seealso" >Veja também:</p>
+        <%= link_to root_path do %>
+          <div class="divborder" >
+          <p class="textdivborder"><i class="fas fa-book-open"></i>        CURSOS PREPARATÓRIOS</p>
+          </div>
+          <br>
+        <% end %>
         <%= link_to portal_de_vagas_path do %>
           <div class="divborder">
           <p class="textdivborder"><i class="fas fa-laptop"></i>        PORTAL DE VAGAS</p>
           </div>
           <br>
         <% end %>
-        <%= link_to root_path do %>
-          <div class="divborder">
-          <p class="textdivborder"><i class="fas fa-wrench"></i>        DICAS DE ENTREVISTA</p>
-          </div>
-          <br>
-        <% end %>
       </div>
+
     </div>
   </div>
 </div>
 
+
+<%= render 'shared/blogposts' %>
 
 <%= render 'shared/perfilsocial' %>
 
