@@ -25,6 +25,7 @@ Rails.application.routes.draw do
   #cursos
   get "novenovecv", to: 'pages#novenovecv', as: :"novenovecv"
   get "aprovando-em-entrevistas", to: 'pages#aprovando_em_entrevistas', as: :"aprovando-em-entrevistas"
+  get "obrigado-waitlist", to: 'pages#obrigado_waitlist', as: :"obrigado-waitlist"
 
   #portaldevagas
   get "portal-de-vagas", to: 'pages#portal_de_vagas', as: :"portal_de_vagas"

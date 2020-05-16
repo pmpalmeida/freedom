@@ -87,6 +87,10 @@ class PagesController < ApplicationController
     redirect_to(inscricoes_encerradas_path)
   end
 
+  def obrigado_waitlist
+    #redirect_to(inscricoes_encerradas_path)
+  end
+
 
 
 
