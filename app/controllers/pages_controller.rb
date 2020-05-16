@@ -10,9 +10,6 @@ class PagesController < ApplicationController
       @vaga1 = @vagas["vaga0"]
       @vaga2 = @vagas["vaga1"]
       @vaga3 = @vagas["vaga2"]
-
-
-
   end
 
   def sobre
@@ -70,8 +67,6 @@ class PagesController < ApplicationController
   end
 
 
-
-
   def inscricoes_para_portal_encerradas
 
   end
@@ -87,6 +82,19 @@ class PagesController < ApplicationController
     redirect_to(inscricoes_encerradas_path)
   end
 
+  def obrigado_waitlist
+    #redirect_to(inscricoes_encerradas_path)
+  end
+
+
+#blog | dicas de entrevista
+
+def dicas_de_entrevista
+  @posts = posts_all.to_h
+  #@firstpost = @posts["ultimo"]
+  @secondposts = @posts
+
+end
 
 
 
