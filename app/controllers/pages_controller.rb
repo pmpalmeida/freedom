@@ -75,7 +75,7 @@ class PagesController < ApplicationController
 #Cursos
 
   def novenovecv
-    #redirect_to(inscricoes_encerradas_path)
+    redirect_to(inscricoes_encerradas_path)
   end
 
   def aprovando_em_entrevistas
