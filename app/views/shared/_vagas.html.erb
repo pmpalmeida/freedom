@@ -62,6 +62,21 @@ max-width: 800px;
   max-height: 150px;
 }
 
+.divborder {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  margin: 4px;
+  color: black;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.divborder:hover {
+  background-color: black;
+  border-color: black;
+}
+
 </style>
 
 
@@ -103,10 +118,23 @@ max-width: 800px;
 
     <br>
     <br>
+
+    <div class="container">
+      <p style="color: black; margin-bottom: 0vh; font-size: 2vh; font-style: italic;">Veja como conseguir essa vaga acessando:</p>
+      <hr style="margin-top: 0vh;">
+
+      <%= link_to inscricoes_encerradas_path do %>
+        <div class="btn btn-dark btn-block" style="margin-top: -0.3vh;"><i class="fas fa-book-open"></i> Cursos preparatórios para entrevista</div>
+      <% end %>
+      <br>
+
+      <%= link_to dicas_de_entrevista_path do %>
+        <div class="btn btn-dark btn-block" style="margin-top: -0.3vh;"><i class="fas fa-wrench"></i> Dicas de entrevista</div>
+      <% end %>
+    </div>
+
     <br>
-
-
-
+    <br>
   </div>
 
   <br>
