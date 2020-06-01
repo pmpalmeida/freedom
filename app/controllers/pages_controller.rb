@@ -67,7 +67,7 @@ class PagesController < ApplicationController
   end
 
   #LISTA DE VAGAS
-  def portal_de_vagas
+  def lista_de_vagas
 
   end
 
