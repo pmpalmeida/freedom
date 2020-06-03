@@ -66,6 +66,11 @@ class PagesController < ApplicationController
       @vaga3 = @vagas["vaga2"]
   end
 
+  #LISTA DE VAGAS
+  def lista_de_vagas
+
+  end
+
 
   def inscricoes_para_portal_encerradas
 
