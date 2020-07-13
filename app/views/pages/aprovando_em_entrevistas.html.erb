@@ -1,1 +1,209 @@
-<p>teste</p>
+<style>
+
+
+.videoContainer {
+
+background: #4b6cb7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 100%;
+  height: 70vh;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 0px;
+}
+
+#videoTrailer {
+  min-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+
+.title-text {
+font-size: 2.7vh;
+margin: 0.2vh;
+margin-top: 2vh;
+color: white;
+line-height: 1.2;
+font-weight: 320;
+}
+
+.btn-text-curso {
+  color: white;
+  margin: 1vh;
+  max-width: 95vw;
+  font-weight: 500;
+  font-size: 1.8vh;
+}
+
+.btn-title-style {
+  color: white;
+  background-color:transparent;
+  border-color: white;
+  max-width: 90vw;
+  font-weight: 500;
+  font-size: 1.8vh;
+}
+
+.zoom:hover {
+  transform: scale(1.02);
+}
+
+
+
+.fit-image{
+  height: 20vh;
+  border-radius: 3px;
+}
+
+.fit-image-garantia{
+  height: 40vh;
+  border-radius: 3px;
+}
+
+.background-curso {
+background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding: 3vh; z-index: 10; position:relative; color: gray;">
+}
+
+
+.background-curso2 {
+background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.img-selection {
+  border-color: blue;
+  border-radius: 3px;
+  border-width: thick;
+  background-color: #3498DB;
+  padding: 1.5vh;
+}
+
+.center {
+  margin: auto;
+  width: 80%;
+}
+
+
+.novenovestyle {
+  border-radius: 3px,
+  max-width: 100px;
+}
+</style>
+
+
+<div style="background-color: #F7F7F7;">
+
+
+
+<!-- SEÇÃO HEAD-->
+<div class="videoContainer">
+  <img id="videoTrailer" style="object-fit: cover; height: 70vh; opacity: 0.8;" src="/assets/background2.gif" alt="sobre/about">
+  <div style="position: relative; margin-top: -65vh;">
+    <div class="container">
+      <%= image_tag "99CV.png", class: 'img-responsive center-block fit-image', alt: "Entrevista Descomplicada - Curso 99CV" %>
+      <h1 class="title-text">Um super workshop que vai mudar completamente a forma como você faz entrevistas de emprego!</h1>
+      <!-- DATA-->
+
+        <div style="color: white;">
+        <hr style="color:white; max-width: 400px;">
+        <i class="fas fa-calendar-alt" style="font-size: 1.7vh;"> <p style="padding: 1vh; font-family: 'Arial', cursive; ">23 de Junho</p></i> &nbsp;
+        <i class="fas fa-laptop-code" style="font-size: 1.7vh;"> <p style="padding: 1vh; font-family: 'Arial', cursive; ">20h00</p></i> &nbsp;
+        <i class="fas fa-laptop-code" style="font-size: 1.7vh;"> <p style="padding: 1vh; font-family: 'Arial', cursive; ">100% grátis</p></i> &nbsp;
+        </div>
+      <!-- DATA END-->
+      <p style="font-weight: 300; color: #b8c1c8;">Faça sua inscrição</p>
+      <center> <script async data-uid="d2fa343f2c" src="https://crafty-architect-8610.ck.page/d2fa343f2c/index.js"></script> </center>
+
+    </div>
+  </div>
+</div>
+<!-- FIM: SEÇÃO HEAD-->
+
+
+<!-- SEÇÃO INSCRIÇÃO-->
+<div class="background-curso">
+<div class="container">
+<center>
+  <h3 style="font-weight: 300; color: #b8c1c8; line-height: 1.2;">O que você vai aprender nesse workshop</h3>
+
+  <!-- DATA-->
+  <div style="color: white;">
+  <hr style="color:white; max-width: 400px;">
+  </div>
+  <!-- DATA END-->
+
+
+
+<!-- SEÇÃO O QUE VAI APRENDER-->
+<div class="container">
+
+  <div class="container" style="z-index: 1;">
+  <div class="row">
+
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <center>
+        <div style="padding: 2vh;">
+          <h2 style="font-size: 4vh;"><i class="fas fa-search"></i> Revisão de Currículo</h2>
+          <p>O time de especialistas da Entrevista Descomplicada vai <strong>revisar o seu currículo</strong> de forma a fazer ele se destacar da multidão.</p>
+          <div style="">
+            <%= image_tag "cvcampeao.png", class: 'img-responsive center-block fit-image img-selection', alt: "Entrevista Descomplicada - Curso 99CV" %>
+          </div>
+
+        </div>
+      </center>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <center>
+        <div style="padding: 2vh;">
+          <h2 style="font-size: 4vh;"><i class="far fa-question-circle"></i></i> Plantão de Dúvidas</h2>
+          <p>Plantões online pra discutir <strong>dúvidas</strong> e trocar experiências.</p>
+          <div style="">
+            <%= image_tag "callcenter.jpeg", class: 'img-responsive center-block fit-image img-selection', alt: "Entrevista Descomplicada - Curso 99CV" %>
+          </div>
+
+        </div>
+      </center>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <center>
+        <div style="padding: 2vh;">
+          <h2 style="font-size: 4vh;"><i class="fas fa-desktop"></i></i> Conteúdo Exclusivo</h2>
+          <p>Conteúdo exclusivo e <strong>100% online</strong> pra você assistir no celular ou computador aonde estiver.</p>
+          <div style="">
+            <%= image_tag "screecapcurso.png", class: 'img-responsive center-block fit-image img-selection', alt: "Entrevista Descomplicada - Curso 99CV" %>
+          </div>
+
+        </div>
+      </center>
+    </div>
+
+  </div>
+
+
+</div>
+</div>
+<!--FIM: SEÇÃO O QUE VAI APRENDER-->
+
+
+<br>
+</center>
+</div>
+</div>
+<!-- FIM: SEÇÃO INSCRIÇÃO-->
+
+
+<%= render 'shared/porquefunciona' %>
+
+<%= render 'shared/depoimentos' %>
+
+<%= render 'shared/quemsomos' %>
+
+</div>

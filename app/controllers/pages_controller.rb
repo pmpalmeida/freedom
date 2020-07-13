@@ -28,7 +28,7 @@ class PagesController < ApplicationController
   end
 
   def lan_inscricao
-    redirect_to(root_path)
+    #redirect_to(root_path)
   end
 
   def lan_obrigado
@@ -84,7 +84,7 @@ class PagesController < ApplicationController
   end
 
   def aprovando_em_entrevistas
-    redirect_to(inscricoes_encerradas_path)
+    #redirect_to(inscricoes_encerradas_path)
   end
 
   def obrigado_waitlist
