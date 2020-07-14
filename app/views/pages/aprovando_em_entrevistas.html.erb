@@ -8,7 +8,7 @@ background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-2
 background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   width: 100%;
-  height: 70vh;
+  height: 85vh;
   text-align: center;
   overflow: hidden;
   margin-top: 0px;
@@ -53,7 +53,7 @@ font-weight: 320;
 
 
 .fit-image{
-  height: 20vh;
+  height: 26vh;
   border-radius: 3px;
 }
 
@@ -103,21 +103,23 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 
 <!-- SEÇÃO HEAD-->
 <div class="videoContainer">
-  <img id="videoTrailer" style="object-fit: cover; height: 70vh; opacity: 0.8;" src="/assets/background2.gif" alt="sobre/about">
-  <div style="position: relative; margin-top: -65vh;">
+  <img id="videoTrailer" style="object-fit: cover; height: 85vh; opacity: 0.8;" src="/assets/background2.gif" alt="sobre/about">
+  <div style="position: relative; margin-top: -80vh;">
     <div class="container">
-      <%= image_tag "99CV.png", class: 'img-responsive center-block fit-image', alt: "Entrevista Descomplicada - Curso 99CV" %>
-      <h1 class="title-text">Um super workshop que vai mudar completamente a forma como você faz entrevistas de emprego!</h1>
+      <%= image_tag "rec.png", class: 'img-responsive center-block fit-image', alt: "Entrevista Descomplicada - Curso 99CV" %>
+      <h1 class="title-text" style="margin-top: 1vh;">Um super workshop que vai mudar completamente a forma como você faz entrevistas de emprego!</h1>
       <!-- DATA-->
 
         <div style="color: white;">
-        <hr style="color:white; max-width: 400px;">
-        <i class="fas fa-calendar-alt" style="font-size: 1.7vh;"> <p style="padding: 1vh; font-family: 'Arial', cursive; ">23 de Junho</p></i> &nbsp;
-        <i class="fas fa-laptop-code" style="font-size: 1.7vh;"> <p style="padding: 1vh; font-family: 'Arial', cursive; ">20h00</p></i> &nbsp;
-        <i class="fas fa-laptop-code" style="font-size: 1.7vh;"> <p style="padding: 1vh; font-family: 'Arial', cursive; ">100% grátis</p></i> &nbsp;
+        <hr style="color:white; max-width: 400px; margin-top: 1vh;">
+        <div style="margin-top: 1vh;">
+        <i class="fas fa-calendar-alt" style="font-size: 2vh;"> <p style="padding: 1vh; font-family: 'Arial', cursive; ">23 de Junho</p></i> &nbsp;
+        <i class="fas fa-laptop-code" style="font-size: 2vh;"> <p style="padding: 1vh; font-family: 'Arial', cursive; ">20h00</p></i> &nbsp;
+        <i class="fas fa-laptop-code" style="font-size: 2vh;"> <p style="padding: 1vh; font-family: 'Arial', cursive; ">100% grátis</p></i> &nbsp;
+        </div>
         </div>
       <!-- DATA END-->
-      <p style="font-weight: 300; color: #b8c1c8;">Faça sua inscrição</p>
+      <p style="font-weight: 300; color: #b8c1c8; margin-bottom: -0.3vh;">Faça sua inscrição</p>
       <center> <script async data-uid="d2fa343f2c" src="https://crafty-architect-8610.ck.page/d2fa343f2c/index.js"></script> </center>
 
     </div>
@@ -134,7 +136,7 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 
   <!-- DATA-->
   <div style="color: white;">
-  <hr style="color:white; max-width: 400px;">
+  <hr style="color:white; max-width: 400px; margin-bottom: 1vh;">
   </div>
   <!-- DATA END-->
 
@@ -143,14 +145,14 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 <!-- SEÇÃO O QUE VAI APRENDER-->
 <div class="container">
 
-  <div class="container" style="z-index: 1;">
+  <div class="container" style="font-weight: 300; color: #b8c1c8; line-height: 1.5;">
   <div class="row">
 
     <div class="col-xs-12 col-sm-6 col-md-4">
       <center>
         <div style="padding: 2vh;">
-          <h2 style="font-size: 4vh;"><i class="fas fa-search"></i> Revisão de Currículo</h2>
-          <p>O time de especialistas da Entrevista Descomplicada vai <strong>revisar o seu currículo</strong> de forma a fazer ele se destacar da multidão.</p>
+          <h2 style="font-size: 4vh;"><i class="fas fa-search"></i> Método</h2>
+          <p>Você vai aprender um novo método de fazer entrevistas de emprego de forma a se <strong>recolocar no mercado de trabalho</strong> que funcionou em mais de <strong>50 entrevistas</strong>.</p>
           <div style="">
             <%= image_tag "cvcampeao.png", class: 'img-responsive center-block fit-image img-selection', alt: "Entrevista Descomplicada - Curso 99CV" %>
           </div>
@@ -162,8 +164,8 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
     <div class="col-xs-12 col-sm-6 col-md-4">
       <center>
         <div style="padding: 2vh;">
-          <h2 style="font-size: 4vh;"><i class="far fa-question-circle"></i></i> Plantão de Dúvidas</h2>
-          <p>Plantões online pra discutir <strong>dúvidas</strong> e trocar experiências.</p>
+          <h2 style="font-size: 4vh;"><i class="far fa-question-circle"></i></i> Mindset do Entrevistador</h2>
+          <p>Por que o método <strong>tradicional</strong> de se fazer entrevistas <strong>não é o mais eficiente</strong> para conseguir a vaga de trabalho.</p>
           <div style="">
             <%= image_tag "callcenter.jpeg", class: 'img-responsive center-block fit-image img-selection', alt: "Entrevista Descomplicada - Curso 99CV" %>
           </div>
@@ -175,8 +177,8 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
     <div class="col-xs-12 col-sm-6 col-md-4">
       <center>
         <div style="padding: 2vh;">
-          <h2 style="font-size: 4vh;"><i class="fas fa-desktop"></i></i> Conteúdo Exclusivo</h2>
-          <p>Conteúdo exclusivo e <strong>100% online</strong> pra você assistir no celular ou computador aonde estiver.</p>
+          <h2 style="font-size: 4vh;"><i class="fas fa-desktop"></i></i> Sem pagar nada</h2>
+          <p>Workshop <strong>100% online e gratuito</strong>, basta se inscrever e não esquecer da data.</p>
           <div style="">
             <%= image_tag "screecapcurso.png", class: 'img-responsive center-block fit-image img-selection', alt: "Entrevista Descomplicada - Curso 99CV" %>
           </div>
@@ -200,7 +202,7 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 <!-- FIM: SEÇÃO INSCRIÇÃO-->
 
 
-<%= render 'shared/porquefunciona' %>
+<%= render 'shared/workshoppqfunciona' %>
 
 <%= render 'shared/depoimentos' %>
 
