@@ -88,11 +88,11 @@ class PagesController < ApplicationController
   #end
 
   def inscricao_workshop
-    #redirect_to(inscricoes_encerradas_path)
+    redirect_to(inscricoes_encerradas_path)
   end
 
   def obrigado_workshop
-    #redirect_to(inscricoes_encerradas_path)
+    redirect_to(inscricoes_encerradas_path)
   end
 
   def obrigado_waitlist
