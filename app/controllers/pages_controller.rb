@@ -32,7 +32,7 @@ class PagesController < ApplicationController
   end
 
   def lan_obrigado
-    redirect_to(root_path)
+    #redirect_to(root_path)
   end
 
   def lan_live
@@ -83,7 +83,15 @@ class PagesController < ApplicationController
     #redirect_to(inscricoes_encerradas_path)
   end
 
-  def aprovando_em_entrevistas
+  #def aprovando_em_entrevistas
+    #redirect_to(inscricoes_encerradas_path)
+  #end
+
+  def inscricao_workshop
+    #redirect_to(inscricoes_encerradas_path)
+  end
+
+  def obrigado_workshop
     #redirect_to(inscricoes_encerradas_path)
   end
 

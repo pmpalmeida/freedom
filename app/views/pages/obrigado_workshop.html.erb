@@ -1,0 +1,134 @@
+<style>
+
+
+
+
+.videoContainer {
+
+background: #4b6cb7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 100%;
+  height: 85vh;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 0px;
+}
+
+#videoTrailer {
+  min-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+
+.title-text {
+font-size: 2.7vh;
+margin: 0.2vh;
+margin-top: 2vh;
+color: white;
+line-height: 1.2;
+font-weight: 320;
+}
+
+.btn-text-curso {
+  color: white;
+  margin: 1vh;
+  max-width: 95vw;
+  font-weight: 500;
+  font-size: 1.8vh;
+}
+
+.btn-title-style {
+  color: white;
+  background-color:transparent;
+  border-color: white;
+  max-width: 90vw;
+  font-weight: 500;
+  font-size: 1.8vh;
+}
+
+.zoom:hover {
+  transform: scale(1.02);
+}
+
+
+
+.fit-image{
+  height: 26vh;
+  border-radius: 3px;
+}
+
+.fit-image-garantia{
+  height: 40vh;
+  border-radius: 3px;
+}
+
+
+
+
+
+.img-selection {
+  border-color: blue;
+  border-radius: 3px;
+  border-width: thick;
+  background-color: #3498DB;
+  padding: 1.5vh;
+}
+
+.center {
+  margin: auto;
+  width: 80%;
+}
+
+
+.novenovestyle {
+  border-radius: 3px,
+  max-width: 100px;
+}
+</style>
+
+
+<div style="background-color: #F7F7F7;">
+
+
+
+<!-- SEÇÃO HEAD-->
+<div class="videoContainer">
+  <img id="videoTrailer" style="object-fit: cover; height: 85vh; opacity: 0.8;" src="/assets/background2.gif" alt="sobre/about">
+  <div style="position: relative; margin-top: -80vh;">
+    <div class="container">
+      <%= image_tag "rec.png", class: 'img-responsive center-block fit-image', alt: "Entrevista Descomplicada - Curso 99CV" %>
+      <h1 class="title-text" style="margin-top: 1vh;">Sua inscrição foi realizada com sucesso! :)</h1>
+      <h2 class="title-text" style="margin-top: 1vh;">Temos um encontro marcado</h2>
+      <!-- DATA-->
+
+        <div style="color: white;">
+        <hr style="color:white; max-width: 400px; margin-top: 1vh;">
+        <div style="margin-top: 1vh;">
+        <i class="fas fa-calendar-alt" style="font-size: 2vh;"> <p style="padding: 1vh; font-family: 'Arial', cursive; ">23 de Junho</p></i> &nbsp;
+        <i class="fas fa-laptop-code" style="font-size: 2vh;"> <p style="padding: 1vh; font-family: 'Arial', cursive; ">20h00</p></i> &nbsp;
+        <i class="fas fa-laptop-code" style="font-size: 2vh;"> <p style="padding: 1vh; font-family: 'Arial', cursive; ">100% grátis</p></i> &nbsp;
+        </div>
+        </div>
+      <!-- DATA END-->
+      <br>
+      <p style="font-weight: 300; color: #b8c1c8; margin-bottom: -0.3vh;">Entre no nosso canal de Telegram para receber os material exclusivos e 100% gratuitos do workshop!</p>
+      <br>
+      <a href="https://t.me/workshoprecolocacaoprofissional"><i class="fab fa-telegram" style="font-size: 8vh; color: white;"></i></a>
+
+
+
+    </div>
+  </div>
+</div>
+<!-- FIM: SEÇÃO HEAD-->
+
+
+<%= render 'shared/lembrete' %>
+
+<%= render 'shared/workshoppqfunciona' %>
+
+<%= render 'shared/quemsomos' %>
+
+</div>
